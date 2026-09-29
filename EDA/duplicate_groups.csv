@@ -1,0 +1,14 @@
+id,input,error_type,references,norm_edit_dist,edit_category
+22,Anh đừng có tưởng cứ đi đúng lối mòn là không va vấp phải chông gai hay sao?,1,['Anh tưởng cứ đi đúng lối mòn là không va vấp phải chông gai hay sao?'],0.10526315789473684,moderate_correction
+68,Anh đừng có tưởng cứ đi đúng lối mòn là không va vấp phải chông gai hay sao?,1,['Anh tưởng cứ đi đúng lối mòn là không va vấp phải chông gai hay sao?'],0.10526315789473684,moderate_correction
+3,"Qua cuộc sống tối tăm, u uất của chị Dậu đã tố cáo sự thối nát của chế độ thực dân, phong kiến.",1,"['Cuộc sống tối tăm, u uất của chị Dậu đã tố cáo sự thối nát của chế độ thực dân, phong kiến.']",0.05263157894736842,minimal_edit
+35,"Qua cuộc sống tối tăm, u uất của chị Dậu đã tố cáo sự thối nát của chế độ thực dân, phong kiến.",1,"['Cuộc sống tối tăm, u uất của chị Dậu đã tố cáo sự thối nát của chế độ thực dân, phong kiến.']",0.05263157894736842,minimal_edit
+66,"Sài Gòn nay là thành phố Hồ Chí Minh, người chiến sĩ quốc tế lỗi lạc, nhà tư tưởng...",1,"['Sài Gòn nay là thành phố mang tên Hồ Chí Minh, người chiến sĩ quốc tế lỗi lạc...']",0.27058823529411763,moderate_correction
+71,"Sài Gòn nay là thành phố Hồ Chí Minh, người chiến sĩ quốc tế lỗi lạc, nhà tư tưởng...",1,"['Sài Gòn nay là thành phố mang tên Hồ Chí Minh, người chiến sĩ quốc tế lỗi lạc...']",0.27058823529411763,moderate_correction
+23,Tuy trời mưa nhưng các anh có đi không?,1,['Tuy trời mưa nhưng các anh vẫn đi chứ?'],0.1794871794871795,moderate_correction
+69,Tuy trời mưa nhưng các anh có đi không?,1,['Tuy trời mưa nhưng các anh vẫn đi chứ?'],0.1794871794871795,moderate_correction
+25,Vấn đề nổi cộm nhất là nguồn vật tư bị thiếu và là nguyên nhân chủ yếu dẫn đến sự đình trệ sản xuất.,1,['Vấn đề nổi cộm nhất là nguồn vật tư bị thiếu và đó là nguyên nhân chủ yếu...'],0.32,heavy_rewrite
+91,Vấn đề nổi cộm nhất là nguồn vật tư bị thiếu và là nguyên nhân chủ yếu dẫn đến sự đình trệ sản xuất.,1,['Vấn đề nổi cộm nhất là nguồn vật tư bị thiếu và đó là nguyên nhân chủ yếu...'],0.32,heavy_rewrite
+24,"Đọc tin trên, ai cũng phải lo ngại không biết một ngày nào đó, tai nạn đau buồn nói trên sẽ ập xuống gia đình mình.",1,"['Đọc tin trên, ai cũng phải lo ngại rằng một ngày nào đó, tai nạn đau buồn... sẽ ập xuống gia đình mình.']",0.14782608695652175,moderate_correction
+64,"Đọc tin trên, ai cũng phải lo ngại không biết một ngày nào đó, tai nạn đau buồn nói trên sẽ ập xuống gia đình mình.",1,"['Đọc tin trên, ai cũng phải lo ngại rằng một ngày nào đó, tai nạn đau buồn... sẽ ập xuống gia đình mình.']",0.14782608695652175,moderate_correction
+70,"Đọc tin trên, ai cũng phải lo ngại không biết một ngày nào đó, tai nạn đau buồn nói trên sẽ ập xuống gia đình mình.",1,"['Đọc tin trên, ai cũng phải lo ngại rằng một ngày nào đó, tai nạn đau buồn... sẽ ập xuống gia đình mình.']",0.14782608695652175,moderate_correction

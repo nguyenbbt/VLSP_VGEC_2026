@@ -1,0 +1,10 @@
+id,input,reference_index,reference,reasons
+103,Đây là mô hình mới khá lý tưởng đối với vùng đất trũng nhiễm phèn và mặn như Lâm Tần.,0,(Sửa lại nòng cốt câu để làm rõ quan hệ sở chỉ giữa mô hình và địa danh).,Contains instruction/explanation
+104,Hội đồng Bảo an LHQ ngày 5-11 nhất trí với bản báo cáo của LHQ nói rằng tình trạng buôn lậu vũ khí vào Liberia là nguyên nhân dẫn đến bạo lực tràn lan.,0,"(Câu này đúng ngữ pháp, dùng để minh họa cấu trúc bổ ngữ là một tiểu cú).",Contains instruction/explanation
+105,"Việc đóng góp quân sự này mỗi ngày sẽ làm tiêu tốn của nước Úc 5 triệu Úc kim, đó là chưa kể các loại hỏa tiễn và đạn dược.",0,"(Câu này đúng ngữ pháp, minh họa cấu trúc bổ ngữ chỉ số lượng).",Contains instruction/explanation
+108,"Bộ Thủy sản cần phối hợp với các ngành, địa phương... sửa đổi các quy chế, chính sách phù hợp để tiếp tục phát triển chương trình...",0,(Sửa để các hành động phối hợp và sửa đổi có tính liên kết mục đích rõ hơn).,Contains instruction/explanation
+116,"Nhân kỷ niệm 100 năm ngày mất nhà soạn nhạc vĩ đại... giới nhạc sĩ Việt Nam luôn tôn kính, khâm phục nhân cách...",0,"(Câu này đúng, minh họa cho cấu trúc khởi ngữ chỉ thời gian phối hợp tốt với chủ ngữ).",Contains instruction/explanation
+121,"Với vai trò là hội thẩm nhân dân, thành viên của Hội Phụ nữ cần có tiếng nói mạnh mẽ hơn để bênh vực lẽ phải...",0,"(Câu đúng, minh họa cấu trúc Khung đề chỉ tư cách/vai trò).",Contains alternatives (hoặc: / slash)
+136,Theo ý kiến đề xuất của các chuyên gia cho rằng cần phải có lộ trình cụ thể...,0,"Các chuyên gia đề xuất rằng cần phải có lộ trình cụ thể... (hoặc: Theo các chuyên gia, cần phải có...).",Contains alternatives (hoặc: / slash)
+141,"Để đảm bảo an toàn giao thông, Cảnh sát giao thông cần tăng cường kiểm tra xử lý.",0,"(Câu này đúng, dùng để đối chiếu với các câu thiếu chủ ngữ).",Contains instruction/explanation
+457,Nó hỏi rằng tôi có biết việc ấy không?,0,Nó hỏi là/xem tôi có biết việc ấy không.,Contains alternatives (hoặc: / slash)

@@ -1,0 +1,14 @@
+{
+    "total_samples": 457,
+    "new_in_v2": 56,
+    "error_distribution": {
+        "0": 200,
+        "1": 154,
+        "4": 36,
+        "2": 34,
+        "3": 33
+    },
+    "anomalies_count": 9,
+    "duplicate_groups": 450,
+    "multi_reference_count": 56
+}

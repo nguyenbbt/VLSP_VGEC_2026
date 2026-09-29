@@ -1,0 +1,4236 @@
+[
+  {
+    "ID": 1,
+    "Input": "Với đôi tay khéo léo và óc thẩm mĩ tinh tế cho nên người thợ trẻ đã tạo ra được những sản phẩm mành trúc có giá trị.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Với đôi tay khéo léo và óc thẩm mĩ tinh tế, người thợ trẻ đã tạo ra được những sản phẩm mành trúc có giá trị."
+      ]
+    }
+  },
+  {
+    "ID": 2,
+    "Input": "Với nền nghệ thuật phong phú của dân tộc Khơ-me đã góp phần không nhỏ vào kho tàng văn hóa Việt Nam.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Nền nghệ thuật phong phú của dân tộc Khơ-me đã góp phần không nhỏ vào kho tàng văn hóa Việt Nam."
+      ]
+    }
+  },
+  {
+    "ID": 3,
+    "Input": "Qua cuộc sống tối tăm, u uất của chị Dậu đã tố cáo sự thối nát của chế độ thực dân, phong kiến.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Cuộc sống tối tăm, u uất của chị Dậu đã tố cáo sự thối nát của chế độ thực dân, phong kiến."
+      ]
+    }
+  },
+  {
+    "ID": 4,
+    "Input": "Khái quát lịch sử di dân và sự hình thành những vùng sinh thái ở đồng bằng sông Cửu Long đã diễn ra theo ba giai đoạn như sau :",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Lịch sử di dân và sự hình thành những vùng sinh thái ở đồng bằng sông Cửu Long đã diễn ra theo ba giai đoạn như sau :"
+      ]
+    }
+  },
+  {
+    "ID": 5,
+    "Input": "Thế rồi những khó khăn liên miên, nhất là trong thời kì chiến tranh phá hoại của đế quốc Mĩ, xí nghiệp không phát triển lên được.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Thế rồi trước những khó khăn liên miên, nhất là trong thời kì chiến tranh phá hoại của đế quốc Mĩ, xí nghiệp không phát triển lên được."
+      ]
+    }
+  },
+  {
+    "ID": 6,
+    "Input": "Năm 1986 là năm vẻ vang nhất trong hàng chục năm qua của Nhà máy Bát Tràng đã đạt sản lượng chất lượng cao nhất.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Năm 1986 là năm vẻ vang nhất trong hàng chục năm qua của Nhà máy Bát Tràng vì đã đạt sản lượng chất lượng cao nhất."
+      ]
+    }
+  },
+  {
+    "ID": 7,
+    "Input": "Anh là ai đến đây vào lúc đêm khuya ?",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Anh là ai? Tại sao đến đây vào lúc đêm khuya?"
+      ]
+    }
+  },
+  {
+    "ID": 8,
+    "Input": "Bóng rơi xuống chỗ trống trải trước Cường đã chực sẵn, liền đá tạt vào lưới.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Bóng rơi xuống chỗ trống trải trước chỗ Cường đã chực sẵn, liền bị đá tạt vào lưới."
+      ]
+    }
+  },
+  {
+    "ID": 9,
+    "Input": "Khác với xổ số kiến thiết vì mục đích ích nước lợi dân, còn chơi đề là những canh bạc ăn thua cay cú.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Khác với xổ số kiến thiết vì mục đích ích nước lợi dân, chơi đề là những canh bạc ăn thua cay cú."
+      ]
+    }
+  },
+  {
+    "ID": 10,
+    "Input": "Chị được giao phó bảo vệ đồng chí Tùng Lâm nhiều lần tránh được lưới địch.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Chị được giao phó bảo vệ đồng chí Tùng Lâm và đã giúp đồng chí nhiều lần tránh được lưới địch."
+      ]
+    }
+  },
+  {
+    "ID": 11,
+    "Input": "Thế anh đợi ai mà tối nào cũng quanh quẩn cạnh nhà tôi làm gì vậy ?",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Thế anh đợi ai? (Mà) tối nào cũng quanh quẩn cạnh nhà tôi làm gì vậy?"
+      ]
+    }
+  },
+  {
+    "ID": 12,
+    "Input": "Phải để cho mọi người hiểu được công việc và trách nhiệm của mình đối với người bệnh, bác sĩ Nhân đã tổ chức một cuộc họp khoa...",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Để cho mọi người hiểu được công việc và trách nhiệm của mình đối với người bệnh, bác sĩ Nhân đã tổ chức..."
+      ]
+    }
+  },
+  {
+    "ID": 13,
+    "Input": "Sự bình tĩnh của anh đã làm cho kẻ địch kinh ngạc và đã lâm vào thế lúng túng, bị động.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Sự bình tĩnh của anh đã làm cho kẻ địch kinh ngạc và lâm vào thế lúng túng, bị động."
+      ]
+    }
+  },
+  {
+    "ID": 14,
+    "Input": "Con đường dẫn chiếc xe lượn sát bờ vực, đâm xuyên qua cánh rừng thông rồi 15 phút sau từ từ đỗ trước cổng một vi-la...",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Con đường dẫn chiếc xe đến đỗ từ từ trước cổng một vi-la..."
+      ]
+    }
+  },
+  {
+    "ID": 15,
+    "Input": "Mũi vu hồi táo bạo của tổ chiến đấu do Pùng dẫn đã tạo ra bước ngoặt chuyển bại thành thắng được.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Mũi vu hồi táo bạo... đã tạo ra được bước ngoặt chuyển bại thành thắng."
+      ]
+    }
+  },
+  {
+    "ID": 16,
+    "Input": "Ta phải tranh chấp vùng đồng bằng với địch, động viên được nguồn nhân vật lực hùng hậu ở đó để đánh bại được kẻ địch.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Ta phải tranh chấp... động viên cho được nguồn nhân vật lực... để đánh bại được kẻ địch."
+      ]
+    }
+  },
+  {
+    "ID": 17,
+    "Input": "Bệnh viện Chợ Rẫy vừa thành công một ca phẫu thuật phức tạp.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Bệnh viện Chợ Rẫy vừa tiến hành thành công một ca phẫu thuật phức tạp."
+      ]
+    }
+  },
+  {
+    "ID": 18,
+    "Input": "Tất cả đã hoàn thành nhanh chất lượng tốt toàn bộ công tác hộ đê trước mùa mưa lũ.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Tất cả đã hoàn thành nhanh với chất lượng tốt toàn bộ công tác hộ đê trước mùa mưa lũ."
+      ]
+    }
+  },
+  {
+    "ID": 19,
+    "Input": "Chúng tôi nhận thấy người mới đến một thái độ lạnh lùng khó hiểu.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Chúng tôi nhận thấy ở người mới đến một thái độ lạnh lùng khó hiểu."
+      ]
+    }
+  },
+  {
+    "ID": 20,
+    "Input": "Với tinh thần hết lòng vì người bệnh mà phục vụ, tập thể bác sĩ đã cố gắng...",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Với tinh thần hết lòng phục vụ người bệnh, tập thể bác sĩ đã cố gắng..."
+      ]
+    }
+  },
+  {
+    "ID": 21,
+    "Input": "Gian phòng được ngăn đôi một tấm bình phong giản dị.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Gian phòng được ngăn đôi bằng một tấm bình phong giản dị."
+      ]
+    }
+  },
+  {
+    "ID": 22,
+    "Input": "Anh đừng có tưởng cứ đi đúng lối mòn là không va vấp phải chông gai hay sao?",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Anh tưởng cứ đi đúng lối mòn là không va vấp phải chông gai hay sao?"
+      ]
+    }
+  },
+  {
+    "ID": 23,
+    "Input": "Tuy trời mưa nhưng các anh có đi không?",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Tuy trời mưa nhưng các anh vẫn đi chứ?"
+      ]
+    }
+  },
+  {
+    "ID": 24,
+    "Input": "Đọc tin trên, ai cũng phải lo ngại không biết một ngày nào đó, tai nạn đau buồn nói trên sẽ ập xuống gia đình mình.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Đọc tin trên, ai cũng phải lo ngại rằng một ngày nào đó, tai nạn đau buồn... sẽ ập xuống gia đình mình."
+      ]
+    }
+  },
+  {
+    "ID": 25,
+    "Input": "Vấn đề nổi cộm nhất là nguồn vật tư bị thiếu và là nguyên nhân chủ yếu dẫn đến sự đình trệ sản xuất.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Vấn đề nổi cộm nhất là nguồn vật tư bị thiếu và đó là nguyên nhân chủ yếu..."
+      ]
+    }
+  },
+  {
+    "ID": 26,
+    "Input": "Vào lúc đó, chính quyền đô hộ ở nước ta sau những cuộc khởi nghĩa của nhân dân ta và của binh sĩ người Việt làm cho nền tảng của sự đô hộ bị lung lay dữ dội.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Vào lúc đó, chính quyền đô hộ ở nước ta, sau những cuộc khởi nghĩa... đã bị lung lay dữ dội."
+      ]
+    }
+  },
+  {
+    "ID": 27,
+    "Input": "Nguyên nhân thi hỏng của nó là do sự lười biếng.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Nguyên nhân thi hỏng của nó là sự lười biếng."
+      ]
+    }
+  },
+  {
+    "ID": 28,
+    "Input": "Dưới áp lực của dư luận, cho nên họ buộc phải nói ra sự thật.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Dưới áp lực của dư luận, họ buộc phải nói ra sự thật."
+      ]
+    }
+  },
+  {
+    "ID": 29,
+    "Input": "Để đáp lại lời kêu gọi của Tổ quốc, cho nên hàng ngàn thanh niên trong huyện đã xung phong nhập ngũ.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Để đáp lại lời kêu gọi của Tổ quốc, hàng ngàn thanh niên trong huyện đã xung phong nhập ngũ."
+      ]
+    }
+  },
+  {
+    "ID": 30,
+    "Input": "Theo lời kêu gọi của Ban giám hiệu, nên mỗi học sinh góp một quyển sách cho thư viện trường.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Theo lời kêu gọi của Ban giám hiệu, mỗi học sinh góp một quyển sách cho thư viện trường."
+      ]
+    }
+  },
+  {
+    "ID": 31,
+    "Input": "Nhờ biện pháp nhân hóa 'sợi tóc', cho nên câu thơ của Tế Hanh trở nên sinh động hẳn.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Nhờ biện pháp nhân hóa 'sợi tóc', câu thơ của Tế Hanh trở nên sinh động hẳn."
+      ]
+    }
+  },
+  {
+    "ID": 32,
+    "Input": "Cùng bị bọn thực dân Pháp đô hộ, do đó Việt Nam, Lào và Căm-pu-chia cùng nhận thức được...",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Vì cùng bị bọn thực dân Pháp đô hộ, Việt Nam, Lào và Căm-pu-chia cùng nhận thức được..."
+      ]
+    }
+  },
+  {
+    "ID": 33,
+    "Input": "Trong lúc đời sống nhân dân ta còn nhiều khó khăn, cho nên chúng ta phải tích cực lao động...",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Trong lúc đời sống nhân dân ta còn nhiều khó khăn, chúng ta phải tích cực lao động..."
+      ]
+    }
+  },
+  {
+    "ID": 34,
+    "Input": "Nhân ngày sinh của Bác (19-5), nên trường em phát động một đợt trồng cây.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Nhân ngày sinh của Bác (19-5), trường em phát động một đợt trồng cây."
+      ]
+    }
+  },
+  {
+    "ID": 35,
+    "Input": "Qua cuộc sống tối tăm, u uất của chị Dậu đã tố cáo sự thối nát của chế độ thực dân, phong kiến.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Cuộc sống tối tăm, u uất của chị Dậu đã tố cáo sự thối nát của chế độ thực dân, phong kiến."
+      ]
+    }
+  },
+  {
+    "ID": 36,
+    "Input": "Thông qua nhân vật chị Sứ đã phản ánh tinh thần anh hùng, bất khuất của phụ nữ miền Nam.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Nhân vật chị Sứ đã phản ánh tinh thần anh hùng, bất khuất của phụ nữ miền Nam."
+      ]
+    }
+  },
+  {
+    "ID": 37,
+    "Input": "Dưới ánh sáng Nghị quyết... đã giúp ta thấy rõ những sai sót cũ để khắc phục.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Ánh sáng Nghị quyết... đã giúp ta thấy rõ những sai sót cũ để khắc phục."
+      ]
+    }
+  },
+  {
+    "ID": 38,
+    "Input": "Trong tình hình kinh tế hiện tại đòi hỏi chúng ta phải kiên quyết xóa bỏ chế độ quan liêu...",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Tình hình kinh tế hiện tại đòi hỏi chúng ta phải kiên quyết xóa bỏ chế độ quan liêu..."
+      ]
+    }
+  },
+  {
+    "ID": 39,
+    "Input": "Tổng hợp ý kiến của cán bộ, công nhân viên đối với giám đốc xí nghiệp nghiêng về phía phê phán...",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Ý kiến của cán bộ, công nhân viên... nghiêng về phía phê phán..."
+      ]
+    }
+  },
+  {
+    "ID": 40,
+    "Input": "Phân tích đoạn văn trên có ba ý chính : tả hình dáng con mèo...",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Đoạn văn trên có ba ý chính : tả hình dáng con mèo..."
+      ]
+    }
+  },
+  {
+    "ID": 41,
+    "Input": "Sau đó, những tai nạn dồn dập, cuộc đời Kiều đau khổ biết bao!",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Sau đó, những tai nạn dồn dập ập đến, cuộc đời Kiều đau khổ biết bao!"
+      ]
+    }
+  },
+  {
+    "ID": 42,
+    "Input": "Buổi chiều, nhiều mâm ăn thịnh soạn, cuộc liên hoan chè chén lại tiếp tục.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Buổi chiều, với nhiều mâm ăn thịnh soạn, cuộc liên hoan chè chén lại tiếp tục."
+      ]
+    }
+  },
+  {
+    "ID": 43,
+    "Input": "Năm học 1980-1981 là năm đáng hãnh diện nhất của trường PTTH Lê Hồng Phong có hơn sáu mươi phần trăm học sinh đạt loại khá và giỏi.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Năm học 1980-1981 là năm đáng hãnh diện nhất của trường PTTH Lê Hồng Phong vì có hơn sáu mươi phần trăm..."
+      ]
+    }
+  },
+  {
+    "ID": 44,
+    "Input": "Người cần cấp cứu là người nào đưa vào phòng này?",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Người cần cấp cứu là người nào mà đưa vào phòng này?"
+      ]
+    }
+  },
+  {
+    "ID": 45,
+    "Input": "Đồ đạc này của ai để ở đây?",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Đồ đạc này của ai mà để ở đây?"
+      ]
+    }
+  },
+  {
+    "ID": 46,
+    "Input": "Khác với anh của nó là một người cần cù, chịu khó, còn nó rất lười biếng, ham chơi.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Khác với anh của nó là một người cần cù, chịu khó, nó rất lười biếng, ham chơi."
+      ]
+    }
+  },
+  {
+    "ID": 47,
+    "Input": "Khi người vợ hai sương một nắng, tần tảo nuôi con, còn người chồng thì suốt ngày đam mê rượu chè...",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Người vợ hai sương một nắng, tần tảo nuôi con, còn người chồng thì suốt ngày đam mê rượu chè..."
+      ]
+    }
+  },
+  {
+    "ID": 48,
+    "Input": "Gia đình của cô được phân công chăm nom hai thương binh, cuối cùng được mạnh khỏe trở về đơn vị...",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Gia đình của cô được phân công chăm nom hai thương binh và đã giúp họ mạnh khỏe trở về đơn vị."
+      ]
+    }
+  },
+  {
+    "ID": 49,
+    "Input": "Bà cụ nghe ngóng tình hình địch sắp có cuộc càn lớn.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Bà cụ nghe ngóng và biết tình hình địch sắp có cuộc càn lớn."
+      ]
+    }
+  },
+  {
+    "ID": 50,
+    "Input": "Anh ấy kiểm tra chiếc xe này máy còn rất tốt.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Anh ấy kiểm tra chiếc xe này và xác nhận máy còn rất tốt."
+      ]
+    }
+  },
+  {
+    "ID": 51,
+    "Input": "Anh nghĩ như thế nào mà phát biểu những ý kiến cực đoan như thế để làm gì nhỉ?",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Anh nghĩ như thế nào? Tại sao lại phát biểu những ý kiến cực đoan như thế?"
+      ]
+    }
+  },
+  {
+    "ID": 52,
+    "Input": "Không nên để quần chúng hiểu lầm và nghi kị lãnh đạo, giám đốc xí nghiệp thường tổ chức những cuộc họp...",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Để quần chúng không hiểu lầm và nghi kị lãnh đạo, giám đốc xí nghiệp thường tổ chức..."
+      ]
+    }
+  },
+  {
+    "ID": 53,
+    "Input": "Vật tư chạy lòng vòng từ cơ quan này sang cơ quan khác; lúc cần thì không có, lúc có được thì giá đã tăng vọt...",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Vật tư chạy lòng vòng... Đến nỗi lúc cần thì không có, lúc có được thì giá đã tăng vọt."
+      ]
+    }
+  },
+  {
+    "ID": 54,
+    "Input": "Học sinh kém và học sinh giỏi có tâm lí khác xa nhau, thường thì hay rụt rè, mặc cảm...",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Học sinh kém và học sinh giỏi có tâm lí khác xa nhau. Học sinh kém thường hay rụt rè, mặc cảm..."
+      ]
+    }
+  },
+  {
+    "ID": 55,
+    "Input": "Sự lừa dối của nó đối với tập thể đã làm cho mọi người bực mình và đang dần dần xa lánh nó.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Sự lừa dối của nó đối với tập thể đã làm cho mọi người bực mình, vì thế họ đang dần dần xa lánh nó."
+      ]
+    }
+  },
+  {
+    "ID": 56,
+    "Input": "Tai biến gia đình đã buộc Kiều bán mình và đã phụ tình Kim Trọng.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Tai biến gia đình đã buộc Kiều bán mình, do đó nàng đã phụ tình Kim Trọng."
+      ]
+    }
+  },
+  {
+    "ID": 57,
+    "Input": "Chúng ta phải đẩy mạnh phong trào sinh đẻ có kế hoạch thành công.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Chúng ta phải đẩy mạnh phong trào sinh đẻ có kế hoạch để đi đến thành công."
+      ]
+    }
+  },
+  {
+    "ID": 58,
+    "Input": "Ông ấy dạy học sinh thi đậu rất nhiều.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Ông ấy dạy làm cho học sinh thi đậu rất nhiều."
+      ]
+    }
+  },
+  {
+    "ID": 59,
+    "Input": "Gió thổi nhiều đám mây tụ lại quanh chỏm núi Tản Viên.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Gió thổi làm cho nhiều đám mây tụ lại quanh chỏm núi Tản Viên."
+      ]
+    }
+  },
+  {
+    "ID": 60,
+    "Input": "Sau khi kiểm tra, đồng chí Ban được minh oan, vì vậy chi bộ không thi hành kỉ luật đồng chí Ban.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Sau khi kiểm tra, đồng chí Ban được minh oan, vì vậy chi bộ quyết định không thi hành kỉ luật..."
+      ]
+    }
+  },
+  {
+    "ID": 61,
+    "Input": "Nhờ trang bị nhiều máy móc mới, xí nghiệp đã chế tạo loại nồi cơm điện xuất khẩu được.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Nhờ trang bị nhiều máy móc mới, xí nghiệp đã chế tạo được loại nồi cơm điện xuất khẩu."
+      ]
+    }
+  },
+  {
+    "ID": 62,
+    "Input": "Do lòng căm thù giặc sâu sắc, anh Trỗi đã giữ vững khí tiết chống giặc đến cùng được.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Do lòng căm thù giặc sâu sắc, anh Trỗi đã giữ vững được khí tiết chống giặc đến cùng."
+      ]
+    }
+  },
+  {
+    "ID": 63,
+    "Input": "Cán bộ ta phải học được tiếng Nga để trực tiếp nói chuyện với các chuyên gia...",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Cán bộ ta phải học cho được tiếng Nga để trực tiếp nói chuyện với các chuyên gia..."
+      ]
+    }
+  },
+  {
+    "ID": 64,
+    "Input": "Đọc tin trên, ai cũng phải lo ngại không biết một ngày nào đó, tai nạn đau buồn nói trên sẽ ập xuống gia đình mình.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Đọc tin trên, ai cũng phải lo ngại rằng một ngày nào đó, tai nạn đau buồn... sẽ ập xuống gia đình mình."
+      ]
+    }
+  },
+  {
+    "ID": 65,
+    "Input": "Không biết lâu ngày được thư nhà, anh ấy sẽ cảm thấy vui mừng biết bao!",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Lâu ngày được thư nhà, không biết anh ấy sẽ cảm thấy vui mừng như thế nào?"
+      ]
+    }
+  },
+  {
+    "ID": 66,
+    "Input": "Sài Gòn nay là thành phố Hồ Chí Minh, người chiến sĩ quốc tế lỗi lạc, nhà tư tưởng...",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Sài Gòn nay là thành phố mang tên Hồ Chí Minh, người chiến sĩ quốc tế lỗi lạc..."
+      ]
+    }
+  },
+  {
+    "ID": 67,
+    "Input": "Mọi người cần tự giác vì chính sách, chủ trương, hợp tình hợp lí ấy mà nghiêm túc chấp hành.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Mọi người cần tự giác và nghiêm túc chấp hành chính sách, chủ trương hợp tình hợp lí ấy."
+      ]
+    }
+  },
+  {
+    "ID": 68,
+    "Input": "Anh đừng có tưởng cứ đi đúng lối mòn là không va vấp phải chông gai hay sao?",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Anh tưởng cứ đi đúng lối mòn là không va vấp phải chông gai hay sao?"
+      ]
+    }
+  },
+  {
+    "ID": 69,
+    "Input": "Tuy trời mưa nhưng các anh có đi không?",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Tuy trời mưa nhưng các anh vẫn đi chứ?"
+      ]
+    }
+  },
+  {
+    "ID": 70,
+    "Input": "Đọc tin trên, ai cũng phải lo ngại không biết một ngày nào đó, tai nạn đau buồn nói trên sẽ ập xuống gia đình mình.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Đọc tin trên, ai cũng phải lo ngại rằng một ngày nào đó, tai nạn đau buồn... sẽ ập xuống gia đình mình."
+      ]
+    }
+  },
+  {
+    "ID": 71,
+    "Input": "Sài Gòn nay là thành phố Hồ Chí Minh, người chiến sĩ quốc tế lỗi lạc, nhà tư tưởng...",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Sài Gòn nay là thành phố mang tên Hồ Chí Minh, người chiến sĩ quốc tế lỗi lạc..."
+      ]
+    }
+  },
+  {
+    "ID": 72,
+    "Input": "Nữ thanh niên của trên 60% tổng số lực lượng xung kích mà chúng ta rất đỗi tự hào.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Nữ thanh niên chiếm trên 60% tổng số lực lượng xung kích mà chúng ta rất đỗi tự hào."
+      ]
+    }
+  },
+  {
+    "ID": 73,
+    "Input": "Nội dung quyển Tắt đèn về số phận của người phụ nữ dưới thời thực dân - phong kiến.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Nội dung quyển Tắt đèn nói về số phận của người phụ nữ..."
+      ]
+    }
+  },
+  {
+    "ID": 74,
+    "Input": "Chiếc Toyota bên vệ đường với biển số 60A - 8284.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Chiếc Toyota bên vệ đường mang biển số 60A - 8284."
+      ]
+    }
+  },
+  {
+    "ID": 75,
+    "Input": "Những gia đình bỏ sản xuất, quay sang mở quán điểm tâm, giải khát.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Những gia đình ấy bỏ sản xuất, quay sang mở quán điểm tâm, giải khát."
+      ]
+    }
+  },
+  {
+    "ID": 76,
+    "Input": "Trưởng phòng kế hoạch đã đưa ra đầy đủ các con số, đã thể hiện sự tiến bộ vượt bậc của xí nghiệp.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Trưởng phòng kế hoạch đã đưa ra đầy đủ các con số thể hiện sự tiến bộ vượt bậc của xí nghiệp."
+      ]
+    }
+  },
+  {
+    "ID": 77,
+    "Input": "Bác Hồ đã có lần nói đến lòng thương cảm của mình đối với đồng bào Nam Bộ thì bị thuế má của thực dân Pháp chồng chất lên ngập đầu.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Bác Hồ đã có lần nói đến lòng thương cảm của mình đối với đồng bào Nam Bộ bị thuế má của thực dân Pháp chồng chất lên ngập đầu."
+      ]
+    }
+  },
+  {
+    "ID": 78,
+    "Input": "Đó là thuận lợi lớn do lãnh đạo tạo ra không khí tốt để đại hội đạt được kết quả.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Đó là một không khí tốt, là thuận lợi lớn do lãnh đạo tạo ra để đại hội đạt được kết quả."
+      ]
+    }
+  },
+  {
+    "ID": 79,
+    "Input": "Khắc phục khó khăn để hoàn thành kế hoạch là nhiệm vụ quan trọng nhất mà chúng ta đã từng biểu thị quyết tâm...",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Khắc phục khó khăn... là nhiệm vụ quan trọng nhất mà chúng ta đã từng quyết tâm thực hiện..."
+      ]
+    }
+  },
+  {
+    "ID": 80,
+    "Input": "Anh thử so sánh công việc của anh làm với quyền lợi của anh hưởng.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Anh thử so sánh công việc anh làm với quyền lợi mà anh hưởng."
+      ]
+    }
+  },
+  {
+    "ID": 81,
+    "Input": "Phường 1 đã tổ chức 17 tư thương tụ tập buôn bán lấn chiếm lòng lề đường.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Phường 1 đã tổ chức lại 17 tư thương chuyên tụ tập buôn bán lấn chiếm lòng lề đường."
+      ]
+    }
+  },
+  {
+    "ID": 82,
+    "Input": "Các khuyết điểm của quận đã được chi tiết một phần.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Các khuyết điểm của quận đã được chi tiết hóa một phần."
+      ]
+    }
+  },
+  {
+    "ID": 83,
+    "Input": "Từ trong phong trào thi đua, giai cấp công nhân sẽ xuất hiện nhiều sáng kiến.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Từ trong phong trào thi đua, giai cấp công nhân sẽ nghĩ ra nhiều sáng kiến."
+      ]
+    }
+  },
+  {
+    "ID": 84,
+    "Input": "Điều đó là địch chủ quan, không đánh giá đúng lực lượng ta.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Điều đó chứng tỏ là địch chủ quan, không đánh giá đúng lực lượng ta."
+      ]
+    }
+  },
+  {
+    "ID": 85,
+    "Input": "Vị vua này đã cực lực chống việc con cháu nhậu nhẹt say sưa sau khi về hưu ở Thiên Trường.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Sau khi về hưu ở Thiên Trường, vị vua này đã cực lực chống việc con cháu nhậu nhẹt say sưa."
+      ]
+    }
+  },
+  {
+    "ID": 86,
+    "Input": "Tình bỏ xa Thi 100m nhiều tốp khác.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Tình bỏ xa Thi cùng nhiều tốp khác 100m."
+      ]
+    }
+  },
+  {
+    "ID": 87,
+    "Input": "Vôn-te là một trong những nhà văn hào ở Châu Âu thế kỉ 18 tiến bộ nhất.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Vôn-te là một trong những nhà văn hào tiến bộ nhất ở Châu Âu thế kỉ 18."
+      ]
+    }
+  },
+  {
+    "ID": 88,
+    "Input": "Về điểm này, nhận xét của Mác đối với dân tộc ta rất phù hợp.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Về điểm này, nhận xét của Mác rất phù hợp đối với dân tộc ta."
+      ]
+    }
+  },
+  {
+    "ID": 89,
+    "Input": "Nơi nào có phong trào làm thủy lợi theo phương châm Nhà nước và nhân dân cùng làm giỏi là nơi đó có cấp huyện mạnh.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Nơi nào có phong trào làm thủy lợi giỏi theo phương châm... là nơi đó có cấp huyện mạnh."
+      ]
+    }
+  },
+  {
+    "ID": 90,
+    "Input": "Anh Tám Hưng với dáng vẻ bề ngoài không có gì đặc biệt... là đằng khác.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Anh Tám Hưng là một cán bộ... với dáng vẻ bề ngoài... là đằng khác."
+      ]
+    }
+  },
+  {
+    "ID": 91,
+    "Input": "Vấn đề nổi cộm nhất là nguồn vật tư bị thiếu và là nguyên nhân chủ yếu dẫn đến sự đình trệ sản xuất.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Vấn đề nổi cộm nhất là nguồn vật tư bị thiếu và đó là nguyên nhân chủ yếu..."
+      ]
+    }
+  },
+  {
+    "ID": 92,
+    "Input": "Vào lúc đó, chính quyền đô hộ ở nước ta sau những cuộc khởi nghĩa... làm cho nền tảng của sự đô hộ bị lung lay dữ dội.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Vào lúc đó, chính quyền đô hộ ở nước ta... đã bị lung lay dữ dội."
+      ]
+    }
+  },
+  {
+    "ID": 93,
+    "Input": "Đó là mới nói đến khu nghỉ mát 30 tháng 4, còn nhiều nơi ở xã Bình Khánh...",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Đó là mới nói đến khu nghỉ mát 30 tháng 4, còn nhiều nơi khác nữa như ở xã Bình Khánh..."
+      ]
+    }
+  },
+  {
+    "ID": 94,
+    "Input": "Tinh thần quyết chiến quyết thắng đế quốc Mĩ xâm lược, tên đầu sỏ hiếu chiến...",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Tinh thần quyết chiến quyết thắng đế quốc Mĩ xâm lược... đã đi vào lịch sử Việt Nam."
+      ]
+    }
+  },
+  {
+    "ID": 95,
+    "Input": "Trong quá trình khai khẩn mảnh đất hoang sơ... để biến thành những cánh đồng màu mỡ...",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Trong quá trình khai khẩn... nhân dân ta đã đổ ra không ít mồ hôi."
+      ]
+    }
+  },
+  {
+    "ID": 96,
+    "Input": "Còn về ý kiến cho rằng ngoại tệ ít... thì Công ty thuốc sát trùng lại cũng nhập một phần.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Về ý kiến cho rằng ngoại tệ ít... mà Công ty thuốc sát trùng lại cũng nhập một phần, thì tôi không đồng ý."
+      ]
+    }
+  },
+  {
+    "ID": 97,
+    "Input": "Khi nghe báo có tàu về bến nghĩa là sẽ có nguyên liệu.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Khi nghe báo có tàu về bến, tôi biết là sẽ có nguyên liệu."
+      ]
+    }
+  },
+  {
+    "ID": 98,
+    "Input": "Tuy mù lòa giữa tuổi thanh niên trong những ngày sôi bỏng của đất nước.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Tuy mù lòa giữa tuổi thanh niên... nhưng Nguyễn Đình Chiểu vẫn không nản chí."
+      ]
+    }
+  },
+  {
+    "ID": 99,
+    "Input": "Như vậy, nói đến Huế, từ lâu đã hình thành những ngành nghề truyền thống phong phú và tinh xảo...",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "Như vậy, nói đến Huế là nói đến một vùng đất mà từ lâu đã hình thành những ngành nghề..."
+      ]
+    }
+  },
+  {
+    "ID": 100,
+    "Input": "Đây là lần đầu tiên văn hóa và nghệ thuật Việt Nam được giới thiệu trên quy mô lớn tại Nam Mỹ rất xa xôi.",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "Đây là lần đầu tiên văn hóa và nghệ thuật Việt Nam được giới thiệu trên quy mô lớn tại Nam Mỹ xa xôi."
+      ]
+    }
+  },
+  {
+    "ID": 101,
+    "Input": "Một phương án tác chiến sinh - tử được Trưởng phòng CSHS Hà Nội triển khai thật nhanh.",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "Một phương án tác chiến sinh - tử đã được Trưởng phòng CSHS Hà Nội triển khai thật nhanh."
+      ]
+    }
+  },
+  {
+    "ID": 102,
+    "Input": "Trong khói cay mù mịt tiếng súng từ tay Chức nổ khô khốc vang lên cùng tiếng hét lớn của tên cướp vừa trúng đạn vào cổ.",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "Trong khói cay mù mịt, tiếng súng từ tay Chức nổ khô khốc vang lên cùng tiếng hét lớn..."
+      ]
+    }
+  },
+  {
+    "ID": 103,
+    "Input": "Đây là mô hình mới khá lý tưởng đối với vùng đất trũng nhiễm phèn và mặn như Lâm Tần.",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "(Sửa lại nòng cốt câu để làm rõ quan hệ sở chỉ giữa mô hình và địa danh)."
+      ]
+    }
+  },
+  {
+    "ID": 104,
+    "Input": "Hội đồng Bảo an LHQ ngày 5-11 nhất trí với bản báo cáo của LHQ nói rằng tình trạng buôn lậu vũ khí vào Liberia là nguyên nhân dẫn đến bạo lực tràn lan.",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "(Câu này đúng ngữ pháp, dùng để minh họa cấu trúc bổ ngữ là một tiểu cú)."
+      ]
+    }
+  },
+  {
+    "ID": 105,
+    "Input": "Việc đóng góp quân sự này mỗi ngày sẽ làm tiêu tốn của nước Úc 5 triệu Úc kim, đó là chưa kể các loại hỏa tiễn và đạn dược.",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "(Câu này đúng ngữ pháp, minh họa cấu trúc bổ ngữ chỉ số lượng)."
+      ]
+    }
+  },
+  {
+    "ID": 106,
+    "Input": "Tháng 5-1999, Pleiku có quyết định lên thành phố - đây quả là một cột mốc đáng nhớ...",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "Tháng 5-1999, Pleiku có quyết định nâng cấp từ thị xã lên thành phố..."
+      ]
+    }
+  },
+  {
+    "ID": 107,
+    "Input": "Nước lũ ở ĐBSCL đang rút nhanh, nông dân các địa phương ráo riết hoạt động nghề đánh bắt thủy sản sau mùa lũ.",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "Nước lũ ở ĐBSCL đang rút nhanh, nông dân các địa phương ráo riết đánh bắt thủy sản..."
+      ]
+    }
+  },
+  {
+    "ID": 108,
+    "Input": "Bộ Thủy sản cần phối hợp với các ngành, địa phương... sửa đổi các quy chế, chính sách phù hợp để tiếp tục phát triển chương trình...",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "(Sửa để các hành động phối hợp và sửa đổi có tính liên kết mục đích rõ hơn)."
+      ]
+    }
+  },
+  {
+    "ID": 109,
+    "Input": "Vì vậy, Đại hội IX xác định một nhiệm vụ thường xuyên... là phải tiếp tục đẩy mạnh cuộc đấu tranh chống tham nhũng...",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "...xác định một nhiệm vụ thường xuyên... gắn chống tham nhũng với chống quan liêu..."
+      ]
+    }
+  },
+  {
+    "ID": 110,
+    "Input": "[Mới đây, tại thành phố Hồ Chí Minh, Ban Chấp hành Hiệp hội Bao bì Việt Nam đã nhóm họp sau khi ra Hiệp hội được thành lập cách đây 5 tháng tại Hà Nội.]",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "Mới đây... Ban Chấp hành Hiệp hội Bao bì Việt Nam đã nhóm họp sau khi Hiệp hội này được thành lập..."
+      ]
+    }
+  },
+  {
+    "ID": 111,
+    "Input": "Công ty Liksin là một ví dụ. Khởi đầu là một nhà máy in... đã chuyển sang sản xuất phẩm bao bì...",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "Công ty Liksin là một ví dụ. Khởi đầu là một nhà máy in... Công ty đã chuyển sang sản xuất..."
+      ]
+    }
+  },
+  {
+    "ID": 112,
+    "Input": "Báo New Sunday Times dẫn lời Thủ tướng Mahathir nói: Các phương tiện truyền thông Mỹ cố tình gắn Iraq liên quan đến cuộc khủng bốc...",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "...Các phương tiện truyền thông Mỹ cố tình gắn Iraq với cuộc khủng bố..."
+      ]
+    }
+  },
+  {
+    "ID": 113,
+    "Input": "Chúng tôi đã thống nhất thực hiện là cải cách, nâng cao công vụ, khắc phục quan liêu...",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "Chúng tôi đã thống nhất thực hiện cải cách, nâng cao công vụ..."
+      ]
+    }
+  },
+  {
+    "ID": 114,
+    "Input": "Các thành viên trong khu vực miền Đông cũng đã kiến nghị với các địa phương cần xem xét hỗ trợ tạo vùng nguyên liệu ổn định.",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "Các thành viên... kiến nghị: các địa phương cần xem xét..."
+      ]
+    }
+  },
+  {
+    "ID": 115,
+    "Input": "Đê sông Hồng (Hà Nội) bị thay mác xi măng làm kém chất lượng.",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "Đê sông Hồng (Hà Nội) bị thay mác xi măng nên kém chất lượng."
+      ]
+    }
+  },
+  {
+    "ID": 116,
+    "Input": "Nhân kỷ niệm 100 năm ngày mất nhà soạn nhạc vĩ đại... giới nhạc sĩ Việt Nam luôn tôn kính, khâm phục nhân cách...",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "(Câu này đúng, minh họa cho cấu trúc khởi ngữ chỉ thời gian phối hợp tốt với chủ ngữ)."
+      ]
+    }
+  },
+  {
+    "ID": 117,
+    "Input": "Rất nhiều bản hương ước 'vượt ngưỡng', trao quá lớn cho cán bộ cấp thôn thẩm quyền 'hành xử pháp luật' rất tai hại.",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "Rất nhiều bản hương ước 'vượt ngưỡng', trao cho cán bộ cấp thôn thẩm quyền 'hành xử pháp luật' quá lớn..."
+      ]
+    }
+  },
+  {
+    "ID": 118,
+    "Input": "Với gần 20 bộ phim của hơn 10 nước tham gia, phim Việt Nam đã tạo được sự quan tâm của khán giả.",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "Trong số gần 20 bộ phim... phim Việt Nam đã thu hút được sự quan tâm..."
+      ]
+    }
+  },
+  {
+    "ID": 119,
+    "Input": "Rất tự hào và may mắn các chương trình của đoàn đã được khán giả trong và ngoài nước đón nhận hết sức thích thú và khâm phục.",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "Rất tự hào và may mắn là các chương trình của đoàn..."
+      ]
+    }
+  },
+  {
+    "ID": 120,
+    "Input": "Để phát huy sức mạnh đó, tôi đề nghị Dự thảo văn kiện cần làm rõ việc giải quyết đúng đắn và thỏa đáng lợi ích...",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "Để phát huy sức mạnh đó, tôi đề nghị trong Dự thảo văn kiện cần làm rõ..."
+      ]
+    }
+  },
+  {
+    "ID": 121,
+    "Input": "Với vai trò là hội thẩm nhân dân, thành viên của Hội Phụ nữ cần có tiếng nói mạnh mẽ hơn để bênh vực lẽ phải...",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "(Câu đúng, minh họa cấu trúc Khung đề chỉ tư cách/vai trò)."
+      ]
+    }
+  },
+  {
+    "ID": 122,
+    "Input": "Khi xu thế này càng phát triển cả chiều rộng, chiều sâu... thì tính cộng đồng quốc gia dân tộc càng trở nên quan trọng...",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "Khi xu thế này càng phát triển... thì việc giữ gìn bản sắc văn hóa dân tộc càng trở nên quan trọng..."
+      ]
+    }
+  },
+  {
+    "ID": 123,
+    "Input": "Có như thế, sự khiếm khuyết trên sẽ không còn quá lớn ảnh hưởng đến trật tự đô thị như vừa qua.",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "Có như thế, sự khiếm khuyết trên sẽ không còn quá lớn, không còn ảnh hưởng đến..."
+      ]
+    }
+  },
+  {
+    "ID": 124,
+    "Input": "Những năm gần đây Đài PTTH Kiên Giang được đầu tư trên 23 tỷ đồng để xây dựng trung tâm PTTH.",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "Những năm gần đây Đài PTTH Kiên Giang đã được đầu tư..."
+      ]
+    }
+  },
+  {
+    "ID": 125,
+    "Input": "Theo Reuters, ngày 5-3, các giáo sĩ Hồi giáo tại Afghanistan đã thúc chính quyền Taliban không nên nhượng bộ...",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "...các giáo sĩ Hồi giáo... đã khuyên cáo chính quyền Taliban..."
+      ]
+    }
+  },
+  {
+    "ID": 126,
+    "Input": "Mong rằng, chính quyền sở tại và Cảnh sát Giao thông cần tăng cường lực lượng tuần tra...",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "Mong rằng chính quyền sở tại và Cảnh sát Giao thông sẽ tăng cường lực lượng..."
+      ]
+    }
+  },
+  {
+    "ID": 127,
+    "Input": "Nếu chúng ta biết tận dụng vỏ dừa sẽ mang hiệu quả thiết thực cho con người...",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "Nếu chúng ta biết tận dụng vỏ dừa thì việc đó sẽ mang lại hiệu quả..."
+      ]
+    }
+  },
+  {
+    "ID": 128,
+    "Input": "[Chính sự phung phí của chính phủ tiền nhiệm mà hiện nay tài chính là một vấn đề làm đau đầu các quan chức chính phủ.]",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "Chính sự phung phí... đã khiến cho tài chính hiện nay trở thành một vấn đề..."
+      ]
+    }
+  },
+  {
+    "ID": 129,
+    "Input": "Đề nghị các ngành chức năng cần tổ chức truy quét bọn lưu manh trên đường Hùng Vương...",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "Đề nghị các ngành chức năng tổ chức truy quét..."
+      ]
+    }
+  },
+  {
+    "ID": 130,
+    "Input": "Đồng chí Dương Ngọc Sơn nhận định: “Các quận huyện của thành phố đã rất tích cực trong việc xử lý những vấn đề mà người dân khiếu kiện...",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "Đồng chí Dương Ngọc Sơn nhận định rằng các quận huyện..."
+      ]
+    }
+  },
+  {
+    "ID": 131,
+    "Input": "Với bầu nhiệt huyết cộng với tài năng, chàng trai 25 tuổi đã giữ vững và đưa công ty phát triển.",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "Với bầu nhiệt huyết... chàng trai 25 tuổi đã giữ vững và đẩy mạnh đà phát triển của công ty."
+      ]
+    }
+  },
+  {
+    "ID": 132,
+    "Input": "Bánh tét nếp cẩm hảo hạng của tôi một lò nổi tiếng ở đường Nguyễn Văn Cừ Cần Thơ bắt đầu nhận “đơn đặt hàng” tới tấp...",
+    "Output": {
+      "Error_Type_Id": 2,
+      "Fixed Sentence": [
+        "Bánh tét nếp cẩm hảo hạng của tôi - sản phẩm của một lò nổi tiếng..."
+      ]
+    }
+  },
+  {
+    "ID": 133,
+    "Input": "Với những gì mà chúng ta đã làm được trong năm qua là niềm tự hào của mỗi cán bộ nhân viên.",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "Những gì mà chúng ta đã làm được trong năm qua là niềm tự hào của mỗi cán bộ nhân viên."
+      ]
+    }
+  },
+  {
+    "ID": 134,
+    "Input": "Qua chuyến thăm này của Tổng thống Mỹ nhằm thắt chặt hơn nữa quan hệ hợp tác kinh tế...",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "Chuyến thăm này của Tổng thống Mỹ nhằm thắt chặt hơn nữa quan hệ hợp tác kinh tế..."
+      ]
+    }
+  },
+  {
+    "ID": 135,
+    "Input": "Trong suốt quá trình đấu tranh giải phóng dân tộc đã chứng minh sức mạnh của khối đại đoàn kết.",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "Suốt quá trình đấu tranh giải phóng dân tộc đã chứng minh sức mạnh của khối đại đoàn kết."
+      ]
+    }
+  },
+  {
+    "ID": 136,
+    "Input": "Theo ý kiến đề xuất của các chuyên gia cho rằng cần phải có lộ trình cụ thể...",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "Các chuyên gia đề xuất rằng cần phải có lộ trình cụ thể... (hoặc: Theo các chuyên gia, cần phải có...)."
+      ]
+    }
+  },
+  {
+    "ID": 137,
+    "Input": "Chính vì sự chủ quan của đơn vị thi công nên dẫn đến sự cố sạt lở nghiêm trọng vừa qua.",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "Chính sự chủ quan của đơn vị thi công đã dẫn đến sự cố sạt lở nghiêm trọng vừa qua."
+      ]
+    }
+  },
+  {
+    "ID": 138,
+    "Input": "Nhìn những cánh đồng lúa chín vàng trĩu hạt gợi lên trong lòng người nông dân niềm vui khó tả.",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "Những cánh đồng lúa chín vàng trĩu hạt gợi lên trong lòng người nông dân niềm vui khó tả."
+      ]
+    }
+  },
+  {
+    "ID": 139,
+    "Input": "Đối với việc quản lý đô thị hiện nay đang gặp nhiều khó khăn về quỹ đất.",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "Việc quản lý đô thị hiện nay đang gặp nhiều khó khăn về quỹ đất."
+      ]
+    }
+  },
+  {
+    "ID": 140,
+    "Input": "Qua cuộc thi tìm hiểu lịch sử này đã giúp các em học sinh thêm yêu quê hương đất nước.",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "Cuộc thi tìm hiểu lịch sử này đã giúp các em học sinh thêm yêu quê hương đất nước."
+      ]
+    }
+  },
+  {
+    "ID": 141,
+    "Input": "Để đảm bảo an toàn giao thông, Cảnh sát giao thông cần tăng cường kiểm tra xử lý.",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "(Câu này đúng, dùng để đối chiếu với các câu thiếu chủ ngữ)."
+      ]
+    }
+  },
+  {
+    "ID": 142,
+    "Input": "Trong bản di chúc của Bác Hồ đã căn dặn chúng ta nhiều điều quý báu.",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "Bản di chúc của Bác Hồ đã căn dặn chúng ta nhiều điều quý báu."
+      ]
+    }
+  },
+  {
+    "ID": 143,
+    "Input": "Với lối chơi tấn công đa dạng, đội bóng đã giành chiến thắng thuyết phục.",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "(Câu đúng ngữ pháp)."
+      ]
+    }
+  },
+  {
+    "ID": 144,
+    "Input": "Bằng sự nỗ lực không ngừng của tập thể giáo viên đã đưa trường đạt chuẩn quốc gia.",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "Sự nỗ lực không ngừng của tập thể giáo viên đã đưa trường đạt chuẩn quốc gia."
+      ]
+    }
+  },
+  {
+    "ID": 145,
+    "Input": "Do trời mưa to nên làm cho buổi lễ phải hoãn lại.",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "Trời mưa to đã làm cho buổi lễ phải hoãn lại."
+      ]
+    }
+  },
+  {
+    "ID": 146,
+    "Input": "Từ thực tế sản xuất của địa phương cho thấy cần phải thay đổi cơ cấu cây trồng.",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "Thực tế sản xuất của địa phương cho thấy cần phải thay đổi cơ cấu cây trồng."
+      ]
+    }
+  },
+  {
+    "ID": 147,
+    "Input": "Nhờ có sự quan tâm của Đảng và Nhà nước, đời sống nhân dân vùng sâu vùng xa đã được cải thiện.",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "(Câu đúng ngữ pháp)."
+      ]
+    }
+  },
+  {
+    "ID": 148,
+    "Input": "Chính doanh nghiệp là cũng có thể giám sát công an.",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "Chính doanh nghiệp cũng có thể giám sát công an."
+      ]
+    }
+  },
+  {
+    "ID": 149,
+    "Input": "Dư luận và công luận đã lên tiếng báo động về việc xuống cấp của thơ và nhạc... kể cả phim ảnh...",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "Công luận đã lên tiếng báo động về việc xuống cấp của thơ và nhạc... và cả phim ảnh..."
+      ]
+    }
+  },
+  {
+    "ID": 150,
+    "Input": "...cách tốt nhất là phải được đào tạo liên tục, phải đầu tư xây dựng chương trình riêng...",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "...cách tốt nhất là phải đào tạo liên tục, phải đầu tư xây dựng chương trình riêng..."
+      ]
+    }
+  },
+  {
+    "ID": 151,
+    "Input": "Nhiều bản quy ước, hương ước “sách nhiễu” nhân dân bằng việc tự quy định các thứ phí lệ phí...",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "Nhiều bản quy ước, hương ước “sách nhiễu” nhân dân bằng việc tự đặt ra các thứ phí, lệ phí..."
+      ]
+    }
+  },
+  {
+    "ID": 152,
+    "Input": "Bài thơ “Quê hương”... mà không chỉ những người tham gia kháng chiến... thuộc nằm lòng, còn vang vọng...",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "Bài thơ “Quê hương”... không chỉ được những người tham gia kháng chiến... thuộc nằm lòng mà còn vang vọng..."
+      ]
+    }
+  },
+  {
+    "ID": 153,
+    "Input": "Có được điều này nhờ ông sinh ra ngay trên đất tuồng nên đã thâm nhập, tiếp thu nghệ thuật...",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "Có được điều này là nhờ ông sinh ra ngay trên đất tuồng nên đã thâm nhập..."
+      ]
+    }
+  },
+  {
+    "ID": 154,
+    "Input": "Không thể thừa nhận rằng việc kéo dài thêm 6 tháng lệnh cấm vận... là một thắng lợi...",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "Không thể không thừa nhận rằng việc kéo dài thêm 6 tháng lệnh cấm vận... là một thắng lợi..."
+      ]
+    }
+  },
+  {
+    "ID": 155,
+    "Input": "Dự báo, cơn bão này tiếp tục di chuyển... và có thể tiếp tục gây ảnh hưởng về mưa tới các tỉnh phía Bắc.",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "Dự báo, cơn bão này tiếp tục di chuyển... có thể gây mưa ở các tỉnh phía Bắc."
+      ]
+    }
+  },
+  {
+    "ID": 156,
+    "Input": "Đây là công trình tập thể, trong đó có hơn 10 đồng chí nguyên là cán bộ cốt cán... viết và biên tập.",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "Đây là công trình tập thể của nhiều người, trong đó có hơn 10 đồng chí nguyên là cán bộ cốt cán..."
+      ]
+    }
+  },
+  {
+    "ID": 157,
+    "Input": " ...chính tinh thần yêu nước nồng nàn... mà dân tộc ta đã làm nên những kỳ tích lịch sử.",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "...chính tinh thần yêu nước nồng nàn... đã làm nên những kỳ tích lịch sử."
+      ]
+    }
+  },
+  {
+    "ID": 158,
+    "Input": "...sự chân tình, cởi mở không như những năm trước.",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "...sự chân tình, cởi mở không còn như những năm trước."
+      ]
+    }
+  },
+  {
+    "ID": 159,
+    "Input": "...để bênh vực lẽ phải khi tham gia xét xử... nhằm bảo vệ quyền lợi của phụ nữ và trẻ em.",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "...để bênh vực lẽ phải, bảo vệ quyền lợi của phụ nữ và trẻ em khi tham gia xét xử..."
+      ]
+    }
+  },
+  {
+    "ID": 160,
+    "Input": "...lợi ích giữa các thành phần kinh tế để thực hiện công nghiệp hóa, hiện đại hóa...",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "...lợi ích của các thành phần kinh tế để thực hiện công nghiệp hóa, hiện đại hóa..."
+      ]
+    }
+  },
+  {
+    "ID": 161,
+    "Input": "Quảng Ngãi cũng như một số tỉnh... nên năm nào mưa lũ lớn nước ngập các gò bãi... chuột bị cuốn trôi...",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "Ở Quảng Ngãi cũng như một số tỉnh..., năm nào mưa lũ lớn... khiến cho chuột bị cuốn trôi..."
+      ]
+    }
+  },
+  {
+    "ID": 162,
+    "Input": "...cho 38 thanh niên trúng tuyển NVQS... và tặng quà cho hơn 300 thanh niên chuẩn bị lên đường tham gia quân đội...",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "...cho 38 thanh niên trúng tuyển NVQS... và tặng quà cho hơn 300 thanh niên chuẩn bị nhập ngũ..."
+      ]
+    }
+  },
+  {
+    "ID": 163,
+    "Input": "...mặt nào cũng đều đi đến đỉnh điểm của nó. Tuy nhiên, thế kỷ XX là một thế kỷ lưu dấu đậm nét...",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "...mặt nào cũng đều đi đến đỉnh điểm của nó. Với tất cả những mặt tương phản đó, thế kỷ XX là..."
+      ]
+    }
+  },
+  {
+    "ID": 164,
+    "Input": "Tỉnh Cần Thơ đã một bước vận dụng được nội lực của mình vì sự hỗ trợ của trung ương...",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "Tỉnh Cần Thơ đã một bước vận dụng được nội lực của mình và sự hỗ trợ của trung ương..."
+      ]
+    }
+  },
+  {
+    "ID": 165,
+    "Input": "Hiện nay khu vực Nam Bộ chưa bị ảnh hưởng nhiều bởi bộ phận không khí lạnh này...",
+    "Output": {
+      "Error_Type_Id": 3,
+      "Fixed Sentence": [
+        "Hiện nay khu vực Nam Bộ chưa bị bộ phận không khí lạnh này ảnh hưởng nhiều..."
+      ]
+    }
+  },
+  {
+    "ID": 166,
+    "Input": "Trung tâm Pháp - Việt tổ chức học qua mạng: Trung tâm Pháp - Việt đào tạo về quản lý (CFVG) vừa tổ chức buổi học từ xa qua mạng - nhờ công nghệ multimedia...",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "Trung tâm Pháp - Việt tổ chức học qua mạng. Trung tâm Pháp - Việt đào tạo về quản lý (CFVG) vừa tổ chức buổi học từ xa qua mạng nhờ công nghệ multimedia..."
+      ]
+    }
+  },
+  {
+    "ID": 167,
+    "Input": "Trong khi các chiến sĩ công an đi kiểm tra, hồ sơ tài liệu tại nhà hàng, bất ngờ, vào lúc 18h15, một thông tin bí mật được chuyển đến LLCS chỉ ra nơi giấu tài liệu mật.",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "Trong khi các chiến sĩ công an đang kiểm tra hồ sơ tài liệu tại nhà hàng, bất ngờ vào lúc 18h15, một nguồn tin bí mật được chuyển đến..."
+      ]
+    }
+  },
+  {
+    "ID": 168,
+    "Input": "Tới dự và phát biểu tổng kết lớp học, đồng chí Nguyễn Khoa Điềm, Ủy viên Bộ Chính trị, Bí thư Trung ương Đảng, Trưởng ban Tư tưởng - Văn hóa Trung ương nhấn mạnh...",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "(Câu này được dùng làm mẫu đúng về cách dùng vạch dài trong tên cơ quan và dấu phẩy liệt kê chức danh)."
+      ]
+    }
+  },
+  {
+    "ID": 169,
+    "Input": "Ý thức được vai trò của cây xanh đường phố trong tạo cảnh quan, làm mát khí hậu; 3 năm gần đây Công ty Môi trường đô thị Pleiku đều trồng mới...",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "Ý thức được vai trò của cây xanh đường phố... 3 năm gần đây, Công ty Môi trường đô thị Pleiku đã trồng mới..."
+      ]
+    }
+  },
+  {
+    "ID": 170,
+    "Input": "Về tiến độ thi công mặt bằng, Công ty Dịch vụ công ích huyện Bình Chánh thừa nhận tiến độ thi công cơ sở hạ tầng còn chậm cho đến nay công ty đã đền bù...",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "...thừa nhận tiến độ thi công cơ sở hạ tầng còn chậm; cho đến nay, công ty đã đền bù..."
+      ]
+    }
+  },
+  {
+    "ID": 171,
+    "Input": "Đường lối đổi mới - thực chất là sự thể hiện sáng tạo phù hợp với thực tiễn nước ta những tư tưởng thiên tài của Lênin...",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "Đường lối đổi mới thực chất là sự thể hiện sáng tạo phù hợp với thực tiễn..."
+      ]
+    }
+  },
+  {
+    "ID": 172,
+    "Input": "Đặc biệt là vấn đề bảo hiểm trách nhiệm dân sự đối với vận tải hàng hóa - biện pháp có thể bù đắp một phần sự cố cho chủ tàu...",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "Đặc biệt là vấn đề bảo hiểm trách nhiệm dân sự đối với vận tải hàng hóa, một biện pháp có thể bù đắp..."
+      ]
+    }
+  },
+  {
+    "ID": 173,
+    "Input": "Là một trong những nhạc sĩ lớp đầu tiên được đào tạo ở bậc đại học chính quy tại Việt Nam, âm nhạc của Lưu Cầu luôn thể hiện bằng những giai điệu...",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "Là một trong những nhạc sĩ lớp đầu tiên..., Lưu Cầu luôn thể hiện trong âm nhạc của mình những giai điệu..."
+      ]
+    }
+  },
+  {
+    "ID": 174,
+    "Input": "Nhân kỷ niệm 100 năm ngày mất nhà soạn nhạc vĩ đại Ý Giuseppe Verdi (1813-1901), giới nhạc sĩ Việt Nam luôn tôn kính...",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "Nhân kỷ niệm 100 năm ngày mất của nhà soạn nhạc vĩ đại người Ý Giuseppe Verdi (1813 - 1901)..."
+      ]
+    }
+  },
+  {
+    "ID": 175,
+    "Input": "Tài liệu có đoạn ra lệnh cho các tên không tặc “mang dao, di chúc và thẻ chứng minh” và bảo họ rằng: “Hãy bắt đầu sống một cuộc đời hạnh phúc...”",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "Tài liệu có đoạn ra lệnh cho các tên không tặc mang dao, di chúc và thẻ chứng minh, và bảo chúng rằng: “Hãy bắt đầu sống...”"
+      ]
+    }
+  },
+  {
+    "ID": 176,
+    "Input": "Đối tượng tuyển sinh gồm nam quân nhân tại ngũ là hạ sĩ quan, binh sĩ, quân nhân chuyên nghiệp, công nhân viên quốc phòng có 1 năm tuổi quân trở lên...",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "Đối tượng tuyển sinh gồm: nam quân nhân tại ngũ (hạ sĩ quan, binh sĩ, quân nhân chuyên nghiệp, công nhân viên quốc phòng) có 1 năm tuổi quân trở lên..."
+      ]
+    }
+  },
+  {
+    "ID": 177,
+    "Input": "Và biện pháp hiện nay vẫn chỉ là truy quét bằng cách tổ chức tuần tra liên tục, “cắm chốt cũng không được. Chúng tôi kiến nghị...",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "...truy quét bằng cách tổ chức tuần tra liên tục; việc “cắm chốt” cũng không mang lại kết quả."
+      ]
+    }
+  },
+  {
+    "ID": 178,
+    "Input": "Một chiếc xe buýt chở 67 hành khách và hai xe con bị rơi xuống sông Douro khi chiếc cầu nối thị trấn Castalo de Paiva với thị trấn Entre-os-Rios, phía Bắc Bồ Đào Nha, bị sập...",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "...khi chiếc cầu nối hai thị trấn Castalo de Paiva và Entre-os-Rios (phía Bắc Bồ Đào Nha) bị sập..."
+      ]
+    }
+  },
+  {
+    "ID": 179,
+    "Input": "Ông Nguyễn Thanh Hải... nguyên giám định viên trưởng của tổ chức giám định tư pháp về văn hóa thành phố “Giáo dục và phát động nhân dân...",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "Ông Nguyễn Thanh Hải... đề nghị: “Giáo dục và phát động nhân dân...”."
+      ]
+    }
+  },
+  {
+    "ID": 180,
+    "Input": "Thiết nghĩ sự độc hại của loại hình văn hóa bạo lực, đồi trụy... không nói ai cũng biết. Tuy nhiên, tại sao giờ này ta vẫn chưa có một biện pháp xử lý cụ thể nào để xóa sổ nó.",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "...tại sao cho đến giờ này chúng ta vẫn chưa có một biện pháp xử lý cụ thể nào để xóa sổ nó?"
+      ]
+    }
+  },
+  {
+    "ID": 181,
+    "Input": "Yếu tố nào đã mang lại những điều “kỳ diệu” ở một vùng đất “khi ho cò gáy” này?",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "Điều gì đã mang lại những sự thay đổi kỳ diệu cho vùng đất “khỉ ho cò gáy” này?"
+      ]
+    }
+  },
+  {
+    "ID": 182,
+    "Input": "Bốn mặt hàng là áo T.Shirt, áo len, quần, bộ quần áo thể thao những doanh nghiệp được phân bổ hạn ngạch năm 2000 mới được tham gia đấu thầu...",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "Bốn mặt hàng là áo T.Shirt, áo len, quần, bộ quần áo thể thao: những doanh nghiệp được phân bổ hạn ngạch năm 2000 mới được tham gia đấu thầu..."
+      ]
+    }
+  },
+  {
+    "ID": 183,
+    "Input": "Thầy Thăng bối rối nhìn tôi rồi chậm rãi nói: “Đây là văn phòng của nhà trường, do không có nhà tập thể nên Ban giám hiệu đã sắp xếp chúng em ở tạm”.",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "Thầy Thăng bối rối nhìn tôi rồi chậm rãi nói: 'Đây là văn phòng của nhà trường, do không có nhà tập thể nên Ban giám hiệu đã sắp xếp chúng em ở tạm'."
+      ]
+    }
+  },
+  {
+    "ID": 184,
+    "Input": "Cô Lisa Hall, 19 tuổi, ở Essex, Anh, cao 1,9m, hiện là người phụ nữ có đôi chân dài nhất thế giới (1,2m) (ảnh) kỷ lục Guinness thế giới trước đây thuộc về cô Nadja Auermann...",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "...có đôi chân dài nhất thế giới (1,2m) (ảnh); kỷ lục Guinness thế giới trước đây thuộc về cô Nadja Auermann..."
+      ]
+    }
+  },
+  {
+    "ID": 185,
+    "Input": "Johnson còn phục vụ với vai trò thành viên hội đồng bên ngoài cho công ty có tên là Viện tương lai ở Tokyo mà cậu sáng lập, (công ty in cacvidit, lúc cậu 9 tuổi sau khi Johnson tậu được một máy vi tính trong mùa Giáng sinh).",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "...cho công ty có tên là Viện tương lai ở Tokyo mà cậu sáng lập (công ty in cacvidit) lúc cậu 9 tuổi..."
+      ]
+    }
+  },
+  {
+    "ID": 186,
+    "Input": "Vừa qua, Trung ương Đoàn và Thành đoàn TNCS tổ chức 2 cuộc hội thảo bàn về việc giáo dục, truyền thụ lý tưởng cách mạng cho thanh niên đã được nhiều lão thành cách mạng... nhiệt tình hưởng ứng.",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "Những cuộc hội thảo bàn về việc giáo dục... đã được nhiều lão thành cách mạng... nhiệt tình hưởng ứng."
+      ]
+    }
+  },
+  {
+    "ID": 187,
+    "Input": "Vào đầu năm 2001, tại thủ đô Beirut, Liban, khoảng 1.000 họa sĩ người Arập đã vẽ các tác phẩm của mình lên các bức tường (ảnh) với chủ đề người dân Palestine chịu nhiều đau khổ...",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "...đã vẽ các tác phẩm của mình lên các bức tường (ảnh); với chủ đề người dân Palestine chịu nhiều đau khổ..."
+      ]
+    }
+  },
+  {
+    "ID": 188,
+    "Input": "Ông dẫn chứng một cụ già chỉ ngồi nhìn chằm chằm một nơi sau khi dùng thuốc đã có thể mỉm cười và pha trò với gia đình.",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "Ông dẫn chứng: một cụ già chỉ ngồi nhìn chằm chằm một nơi, sau khi dùng thuốc đã có thể mỉm cười..."
+      ]
+    }
+  },
+  {
+    "ID": 189,
+    "Input": "Sản xuất phân bón trong nước hiện nay giảm so với tổng lượng phân bón sử dụng chỉ khoảng 13%-14% so với trước đây là 18%.",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "Sản xuất phân bón trong nước hiện nay giảm, chỉ chiếm khoảng 13% - 14% tổng lượng phân bón sử dụng..."
+      ]
+    }
+  },
+  {
+    "ID": 190,
+    "Input": "Ngân sách Nhà nước dành cho Chương trình dân số tăng thêm 25 tỷ đồng so với năm 2000 nâng tổng số ngân sách năm 2001 lên khoảng 250 tỷ đồng.",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "Ngân sách Nhà nước dành cho Chương trình dân số tăng thêm 25 tỷ đồng so với năm 2000, nâng tổng số ngân sách năm 2001..."
+      ]
+    }
+  },
+  {
+    "ID": 191,
+    "Input": "Điều này chứng minh qua việc triển khai thực hiện một số dự án của tỉnh như Trung tâm Thương mại Rạch Giá; dự án lấn biển xây dựng khu đô thị mới... đã thực sự làm đòn bẩy phát triển kinh tế...",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "Điều này đã được chứng minh qua việc triển khai... Các dự án này đã thực sự là đòn bẩy..."
+      ]
+    }
+  },
+  {
+    "ID": 192,
+    "Input": "Tuy nhiên có sự lộn xộn theo lẽ thường, đáng lý quy trình sẽ là có gánh hát, có rạp hát và nhà hát (nhà hát vừa là nơi tổ chức biểu diễn, vừa là một đơn vị nghệ thuật).",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "Tuy nhiên có sự lộn xộn: theo lẽ thường, đáng lý quy trình sẽ là có gánh hát, có rạp hát và nhà hát..."
+      ]
+    }
+  },
+  {
+    "ID": 193,
+    "Input": "Đại hội đã biểu quyết thông qua các chỉ tiêu trong 5 năm tới sẽ tập trung mọi nguồn lực đầu tư phát triển sản xuất kinh doanh, thúc đẩy chuyển dịch cơ cấu kinh tế theo hướng thương mại dịch vụ - sản xuất công nghiệp...",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "...theo hướng thương mại dịch vụ, sản xuất công nghiệp, tiểu thủ công nghiệp..."
+      ]
+    }
+  },
+  {
+    "ID": 194,
+    "Input": "Trong văn hóa cộng đồng làng xã của nền kinh tế nông nghiệp - sân đình, sân chùa là những điểm tổ chức lễ hội...",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "Trong văn hóa cộng đồng làng xã của nền kinh tế nông nghiệp, sân đình, sân chùa là những điểm..."
+      ]
+    }
+  },
+  {
+    "ID": 195,
+    "Input": "Báo SGGP đang phối hợp vận động nhiều nguồn tài trợ khác. Để tiếp tục hỗ trợ cho các chương trình từ thiện...",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "Báo SGGP đang phối hợp vận động nhiều nguồn tài trợ khác để tiếp tục hỗ trợ cho các chương trình từ thiện..."
+      ]
+    }
+  },
+  {
+    "ID": 196,
+    "Input": "Cho đến giờ phút này - tất cả những thiệt hại do 2 đợt lũ gây ra - vẫn chưa thể thống kê một cách đầy đủ, mà phải chờ đến khi lũ rút.",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "Cho đến giờ phút này, tất cả những thiệt hại do 2 đợt lũ gây ra vẫn chưa thể thống kê một cách đầy đủ..."
+      ]
+    }
+  },
+  {
+    "ID": 197,
+    "Input": "Trong dự thảo Báo cáo Chính trị của Ban Chấp hành Trung ương Đảng khóa 8 trình Đại hội đại biểu toàn quốc lần thứ 9 đã đề ra mục tiêu: “Giải quyết việc làm là yếu tố quyết định...”",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "Bản Báo cáo Chính trị... đã đề ra mục tiêu: “Giải quyết việc làm là yếu tố quyết định...”"
+      ]
+    }
+  },
+  {
+    "ID": 198,
+    "Input": "Thạc sĩ Nguyễn Văn Sở... trả lời thắc mắc của cô Lê Thị Trâm Anh (quận 1) về việc Trường ĐH Nông Lâm có tổ chức dạy hệ tại chức hoặc đào tạo hàm thụ về ngành lâm nghiệp không? Nếu muốn trồng rừng thì liên hệ với nơi nào để được hướng dẫn...",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "...về việc Trường ĐH Nông Lâm có tổ chức dạy... hay không. Nếu muốn trồng rừng thì nên liên hệ với nơi nào..."
+      ]
+    }
+  },
+  {
+    "ID": 199,
+    "Input": "Như đã nói tôi vào chiến khu ở với chú Hai Lý từ những ngày đầu chống Mỹ suốt mười mấy năm trải qua những khổ cực hiểm nguy tôi thật cũng đáng tự hào.",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "Như đã nói, tôi vào chiến khu ở với chú Hai Lý từ những ngày đầu chống Mỹ... tôi thật sự cảm thấy tự hào."
+      ]
+    }
+  },
+  {
+    "ID": 200,
+    "Input": "Các tác phẩm nổi tiếng: “Trăng sáng”, “Người mẹ cầm súng”, “Những sự tích ở đất thép” (ký), “Chuyện xóm tôi”, “Mẹ vắng nhà”...",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "(Dùng dấu phẩy và dấu ngoặc kép để liệt kê các tên tác phẩm đúng quy cách)."
+      ]
+    }
+  },
+  {
+    "ID": 201,
+    "Input": "Điều này chính Lĩnh không giấu diếm “Thực ra, tranh quạt được phân theo trình độ thẩm mỹ cũng như thị hiếu của khách hàng...",
+    "Output": {
+      "Error_Type_Id": 4,
+      "Fixed Sentence": [
+        "Điều này chính Lĩnh không giấu diếm: “Thực ra, tranh quạt được phân theo trình độ thẩm mỹ...”"
+      ]
+    }
+  },
+  {
+    "ID": 202,
+    "Input": "Bản đồ là hình ảnh thu nhỏ một phần hay toàn bộ bề mặt Trái Đất lên mặt phẳng, trên cơ sở toán học nhất định.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 203,
+    "Input": "Phép chiếu hình nón là cách thể hiện mạng lưới kinh, vĩ tuyến của Địa cầu lên mặt chiếu là mặt hình nón.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 204,
+    "Input": "Phương pháp kí hiệu thường dùng để biểu hiện các đối tượng phân bố theo những điểm cụ thể.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 205,
+    "Input": "Phương pháp kí hiệu đường chuyển động là phương pháp thể hiện sự di chuyển của các hiện tượng tự nhiên, cũng như các hiện tượng kinh tế - xã hội trên bản đồ.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 206,
+    "Input": "Phương pháp chấm điểm biểu hiện các đối tượng phân bố phân tán, lẻ tẻ bằng các điểm chấm trên bản đồ.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 207,
+    "Input": "Các điểm chấm là yếu tố cơ bản của phương pháp này, mỗi chấm đều có một giá trị nào đó.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 208,
+    "Input": "Phương pháp bản đồ - biểu đồ thể hiện giá trị tổng cộng của một hiện tượng địa lí trên một đơn vị lãnh thổ bằng cách dùng các biểu đồ đặt vào phạm vi các đơn vị lãnh thổ đó.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 209,
+    "Input": "Bản đồ là một phương tiện để học sinh học tập và rèn luyện các kĩ năng địa lí tại lớp, ở nhà và trả lời phần lớn các câu hỏi kiểm tra về Địa lí.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 210,
+    "Input": "Bản đồ là một phương tiện được sử dụng rộng rãi trong đời sống hằng ngày.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 211,
+    "Input": "Để xác định phương hướng chính xác trên bản đồ chúng ta cần phải dựa vào các đường kinh, vĩ tuyến.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 212,
+    "Input": "Theo quy ước thì đầu trên của kinh tuyến chỉ hướng Bắc, đầu dưới chỉ hướng Nam.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 213,
+    "Input": "Đầu bên phải của vĩ tuyến chỉ hướng Đông, đầu bên trái chỉ hướng Tây.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 214,
+    "Input": "Hình khối cầu của Trái Đất luôn được Mặt Trời chiếu sáng một nửa, còn một nửa không được chiếu sáng, vì thế đã sinh ra ngày và đêm.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 215,
+    "Input": "Người ta đã chia bề mặt Trái Đất làm 24 múi giờ, mỗi múi giờ rộng 15 độ kinh tuyến.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 216,
+    "Input": "Việt Nam thuộc múi giờ số 7.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 217,
+    "Input": "Người ta quy định lấy kinh tuyến 180° qua giữa múi giờ số 12 ở Thái Bình Dương làm đường chuyển ngày quốc tế.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 218,
+    "Input": "Các nhà khoa học phải thông qua các phương pháp nghiên cứu gián tiếp để suy đoán cấu trúc cũng như thành phần và trạng thái của vật chất ở trong lòng Trái Đất.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 219,
+    "Input": "Phương pháp thường dùng hiện nay là phương pháp địa chấn.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 220,
+    "Input": "Vỏ Trái Đất là lớp vỏ cứng, mỏng, độ dày dao động từ 5km đến 70km.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 221,
+    "Input": "Do có sự khác biệt về cấu tạo địa chất, về độ dày, nên vỏ Trái Đất được phân ra thành hai kiểu chính là vỏ lục địa và vỏ đại dương.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 222,
+    "Input": "Từ vỏ Trái Đất cho tới độ sâu 2900km là lớp Manti.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 223,
+    "Input": "Lớp Manti chiếm hơn 80% thể tích và 68,5% khối lượng của Trái Đất.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 224,
+    "Input": "Thành phần vật chất chủ yếu của nhân Trái Đất là những kim loại nặng như niken và sắt.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 225,
+    "Input": "Theo thuyết Kiến tạo mảng thì thạch quyển gồm một số mảng kiến tạo.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 226,
+    "Input": "Các mảng kiến tạo nhẹ, nổi trên một lớp vật chất quánh dẻo, thuộc phần trên của lớp Manti.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 227,
+    "Input": "Nội lực là lực phát sinh từ bên trong Trái Đất.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 228,
+    "Input": "Nguồn năng lượng sinh ra nội lực chủ yếu là nguồn năng lượng ở trong lòng Trái Đất.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 229,
+    "Input": "Ngoại lực là lực có nguồn gốc ở bên ngoài, trên bề mặt Trái Đất.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 230,
+    "Input": "Nguồn năng lượng sinh ra ngoại lực chủ yếu là nguồn năng lượng của bức xạ mặt trời.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 231,
+    "Input": "Các quá trình ngoại lực bao gồm: phong hoá, bóc mòn, vận chuyển và bồi tụ.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 232,
+    "Input": "Phong hoá lí học là quá trình phá hủy đá thành các khối vụn có kích thước to, nhỏ khác nhau mà không làm biến đổi về màu sắc, thành phần khoáng vật và hoá học của chúng.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 233,
+    "Input": "Phong hoá hoá học là quá trình phá hủy đá và khoáng vật, nhưng chủ yếu làm biến đổi thành phần, tính chất hoá học của đá và khoáng vật.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 234,
+    "Input": "Phong hoá sinh học là sự phá hủy đá và các khoáng vật dưới tác động của sinh vật như các vi khuẩn, nấm, rễ cây.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 235,
+    "Input": "Quá trình bóc mòn là quá trình các tác nhân ngoại lực làm các sản phẩm phong hoá dời khỏi vị trí ban đầu của nó.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 236,
+    "Input": "Vận chuyển là quá trình di chuyển vật liệu từ nơi này đến nơi khác.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 237,
+    "Input": "Bồi tụ là quá trình tích tụ các vật liệu phá hủy.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 238,
+    "Input": "Khí quyển là lớp không khí bao quanh Trái Đất, luôn chịu ảnh hưởng của Vũ Trụ, trước hết là Mặt Trời.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 239,
+    "Input": "Khí quyển rất quan trọng đối với sự tồn tại và phát triển của sinh vật trên Trái Đất, đồng thời là lớp vỏ bảo vệ Trái Đất.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 240,
+    "Input": "Căn cứ vào các đặc điểm khác nhau của lớp vỏ khí, người ta chia khí quyển thành năm tầng.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 241,
+    "Input": "Mỗi bán cầu đều có bốn khối khí chính, đó là khối khí: cực, ôn đới, chí tuyến, xích đạo.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 242,
+    "Input": "Frông là mặt ngăn cách hai khối khí khác biệt nhau về tính chất vật lí.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 243,
+    "Input": "Không khí dù rất nhẹ, vẫn có sức nén xuống mặt Trái Đất gọi là khí áp.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 244,
+    "Input": "Càng lên cao không khí càng loãng, sức nén càng nhỏ, do đó khí áp giảm.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 245,
+    "Input": "Không khí đã bão hoà mà vẫn tiếp tục được bổ sung hơi nước, hoặc gặp lạnh thì lượng hơi nước thừa sẽ ngưng đọng.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 246,
+    "Input": "Thuỷ quyển là lớp nước trên Trái Đất bao gồm nước trong các biển, đại dương, nước trên lục địa và hơi nước trong khí quyển.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 247,
+    "Input": "Sóng biển là một hình thức dao động của nước biển theo chiều thẳng đứng.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 248,
+    "Input": "Nguyên nhân chủ yếu tạo nên sóng là gió.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 249,
+    "Input": "Thổ nhưỡng là lớp vật chất tơi xốp ở bề mặt lục địa, được đặc trưng bởi độ phì.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 250,
+    "Input": "Độ phì đất là khả năng cung cấp nước, nhiệt, khí và các chất dinh dưỡng cần thiết cho thực vật sinh trưởng và phát triển.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 251,
+    "Input": "Mọi loại đất đều được hình thành từ những sản phẩm phá huỷ của đá gốc.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 252,
+    "Input": "Các yếu tố khí hậu ảnh hưởng trực tiếp đến sự hình thành đất là nhiệt và ẩm.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 253,
+    "Input": "Thời gian hình thành đất còn gọi là tuổi đất.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 254,
+    "Input": "Sinh quyển là một quyển của Trái Đất, trong đó có toàn bộ sinh vật sinh sống.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 255,
+    "Input": "Thức ăn là nhân tố sinh học quyết định đối với sự phát triển và phân bố của động vật.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 256,
+    "Input": "Lớp vỏ địa lí là lớp vỏ của Trái Đất, ở đó các lớp vỏ bộ phận xâm nhập và tác động lẫn nhau.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 257,
+    "Input": "Chiều dày của lớp vỏ địa lí khoảng 30 đến 35 km.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 258,
+    "Input": "Quy luật thống nhất và hoàn chỉnh của lớp vỏ địa lí là quy luật về mối quan hệ quy định lẫn nhau giữa các thành phần của toàn bộ cũng như của mỗi bộ phận lãnh thổ trong lớp vỏ địa lí.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 259,
+    "Input": "Quy luật địa đới là sự thay đổi có quy luật của tất cả các thành phần địa lí và cảnh quan địa lí theo vĩ độ.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 260,
+    "Input": "Quy luật phi địa đới là quy luật phân bố không phụ thuộc vào tính chất phân bố theo địa đới của các thành phần địa lí và cảnh quan.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 261,
+    "Input": "Quy luật đai cao là sự thay đổi có quy luật của các thành phần tự nhiên theo độ cao địa hình.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 262,
+    "Input": "Quy luật địa ô là sự thay đổi có quy luật của các thành phần tự nhiên và cảnh quan theo kinh độ.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 263,
+    "Input": "Gia tăng cơ học bao gồm hai bộ phận: xuất cư và nhập cư.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 264,
+    "Input": "Cơ cấu dân số theo giới biểu thị tương quan giữa giới nam so với giới nữ hoặc so với tổng số dân.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 265,
+    "Input": "Phân bố dân cư là sự sắp xếp dân số một cách tự phát hoặc tự giác trên một lãnh thổ nhất định, phù hợp với điều kiện sống và các yêu cầu của xã hội.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 266,
+    "Input": "Nguồn lực là tổng thể vị trí địa lí, các nguồn tài nguyên thiên nhiên, hệ thống tài sản quốc gia, nguồn nhân lực, đường lối chính sách, vốn và thị trường.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 267,
+    "Input": "Cơ cấu kinh tế là tổng thể các ngành, lĩnh vực, bộ phận kinh tế có quan hệ hữu cơ tương đối ổn định hợp thành.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 268,
+    "Input": "Sản xuất nông nghiệp không những cung cấp lương thực, thực phẩm cho con người mà còn đảm bảo nguồn nguyên liệu cho các ngành công nghiệp.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 269,
+    "Input": "Phú là một thể văn có vần hoặc xen lẫn văn vần và văn xuôi, dùng để tả cảnh vật, phong tục, kể sự việc, bàn chuyện đời.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 270,
+    "Input": "Một bài phú thường gồm 4 đoạn: đoạn mở, đoạn giải thích, đoạn bình luận và đoạn kết.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 271,
+    "Input": "Thân sinh là Nguyễn Ứng Long (sau đổi là Nguyễn Phi Khanh), một nho sinh nghèo, học giỏi, đỗ Thái học sinh (Tiến sĩ) thời Trần.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 272,
+    "Input": "Mẹ là Trần Thị Thái, con quan Tư đồ Trần Nguyên Đán.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 273,
+    "Input": "Nguyễn Trãi là một bậc anh hùng dân tộc, một nhà văn hoá lớn.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 274,
+    "Input": "Năm 1980, Tổ chức Giáo dục, Khoa học và Văn hoá của Liên hợp quốc (UNESCO) đã công nhận Nguyễn Trãi là danh nhân văn hoá thế giới.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 275,
+    "Input": "Nguyễn Trãi là tác giả xuất sắc về nhiều thể loại văn học, trong sáng tác chữ Hán và chữ Nôm, trong văn chính luận và thơ trữ tình.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 276,
+    "Input": "Sáng tác chữ Nôm có Quốc âm thi tập gồm 254 bài thơ viết theo thể Đường luật hoặc Đường luật xen lục ngôn.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 277,
+    "Input": "Ngoài sáng tác văn học, Nguyễn Trãi còn để lại cuốn Dư địa chí, một bộ sách địa lí cổ nhất của Việt Nam.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 278,
+    "Input": "Sau thảm hoạ tru di tam tộc, tác phẩm của Nguyễn Trãi bị thất lạc hoặc bị thiêu huỷ nhiều.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 279,
+    "Input": "Năm 1467, vua Lê Thánh Tông đã ra lệnh sưu tập lại trước tác của ông và phải đến thế kỉ XIX, tác phẩm của Nguyễn Trãi mới được sưu tầm tương đối đầy đủ.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 280,
+    "Input": "Trong văn học trung đại Việt Nam, Nguyễn Trãi là nhà văn chính luận lỗi lạc nhất.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 281,
+    "Input": "Tư tưởng chủ đạo xuyên suốt các áng văn chính luận của Nguyễn Trãi là tư tưởng nhân nghĩa, yêu nước, thương dân.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 282,
+    "Input": "Quân trung từ mệnh tập gồm những thư từ gửi cho tướng giặc và những giấy tờ giao thiệp với triều đình nhà Minh.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 283,
+    "Input": "Bình Ngô đại cáo là áng văn yêu nước lớn của thời đại, là bản tuyên ngôn về chủ quyền độc lập dân tộc, bản cáo trạng tội ác kẻ thù, bản hùng ca về cuộc khởi nghĩa Lam Sơn.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 284,
+    "Input": "Xuất hiện ở nửa đầu thế kỉ XV, thiên tài văn học Nguyễn Trãi trở thành một hiện tượng văn học kết tinh truyền thống văn học Lí - Trần, đồng thời mở đường cho cả một giai đoạn phát triển mới.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 285,
+    "Input": "Về nội dung, văn chương Nguyễn Trãi hội tụ hai nguồn cảm hứng lớn của văn học dân tộc là yêu nước và nhân đạo.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 286,
+    "Input": "Chúng ta luôn luôn nằm trong lòng chiếc nôi xanh của cây cối - đó là cái máy điều hoà khí hậu vĩ đại của chúng ta.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 287,
+    "Input": "Diện tích vô cùng to lớn của các tầng lá trùng điệp đã cản 50% bụi đường.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 288,
+    "Input": "Trích diễm thi tập do Hoàng Đức Lương sưu tầm, tuyển chọn, biên soạn.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 289,
+    "Input": "Hoàng Đức Lương thi đỗ Tiến sĩ năm Mậu Tuất (1478).",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 290,
+    "Input": "Bài tựa tập thơ được ông viết năm 1497.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 291,
+    "Input": "Ở thế kỉ XV, sau khi chiến thắng quân Minh xâm lược, nhiều nhà văn hoá nước ta đã tiến hành sưu tầm tác phẩm văn thơ của trí thức Việt Nam từ các thời kì trước.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 292,
+    "Input": "Việc biên soạn Trích diễm thi tập nằm trong trào lưu chung của thời đại phục hưng dân tộc ở thế kỉ XV.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 293,
+    "Input": "Tiếng Việt có lịch sử phát triển lâu đời.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 294,
+    "Input": "Những kết quả nghiên cứu gần đây của nhiều nhà Việt ngữ học đã chứng minh tiếng Việt có nguồn gốc bản địa.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 295,
+    "Input": "Tiếng Việt được xác định thuộc họ ngôn ngữ Nam Á.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 296,
+    "Input": "Dưới thời Pháp thuộc, ngôn ngữ hành chính, ngoại giao, giáo dục lúc này là tiếng Pháp.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 297,
+    "Input": "Thơ mới xuất hiện với hình thức ngôn từ không bị ràng buộc về số chữ, số câu, về bằng trắc, niêm luật, đối ngẫu.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 298,
+    "Input": "Tiểu thuyết lãng mạn và hiện thực nở rộ vào khoảng những năm 30 của thế kỉ XX.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 299,
+    "Input": "GS. Hoàng Xuân Hân công bố quyển Danh từ khoa học năm 1942.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 300,
+    "Input": "Vào nửa đầu thế kỉ XVII, một số giáo sĩ phương Tây đã dựa vào bộ chữ cái La-tinh để xây dựng một thứ chữ mới ghi âm tiếng Việt, nhằm phục vụ cho việc truyền giảng đạo Thiên Chúa, sau này được gọi là chữ quốc ngữ.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 301,
+    "Input": "Ngô Sĩ Liên đỗ Tiến sĩ năm 1442 dưới triều Lê Thái Tông, được cử vào Viện Hàn lâm.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 302,
+    "Input": "Ông đã vâng lệnh Lê Thánh Tông biên soạn bộ Đại Việt sử kí toàn thư.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 303,
+    "Input": "Đại Việt sử kí toàn thư là bộ chính sử lớn của Việt Nam thời trung đại do Ngô Sĩ Liên biên soạn, hoàn tất năm 1479, gồm 15 quyển, ghi chép lịch sử từ thời Hồng Bàng cho đến khi Lê Thái Tổ lên ngôi (năm 1428).",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 304,
+    "Input": "Nguyễn Dữ sống vào khoảng thế kỉ XVI, xuất thân trong gia đình khoa bảng.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 305,
+    "Input": "Ông từng đi thi và đã ra làm quan, nhưng không bao lâu thì từ quan lui về ẩn dật.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 306,
+    "Input": "Truyền kì là một thể văn xuôi tự sự thời trung đại phản ánh hiện thực qua những yếu tố kì lạ, hoang đường.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 307,
+    "Input": "Truyền kì mạn lục của Nguyễn Dữ là tác phẩm viết bằng chữ Hán, gồm 20 truyện, ra đời vào nửa đầu thế kỉ XVI.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 308,
+    "Input": "Tác phẩm đã được dịch ra nhiều thứ tiếng nước ngoài và được đánh giá cao trong số các tác phẩm truyền kì ở các nước đồng văn.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 309,
+    "Input": "Tác giả La Quán Trung tên La Bản, hiệu Hồ Hải tản nhân, người vùng Thái Nguyên thuộc tỉnh Sơn Tây cũ.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 310,
+    "Input": "Khi Minh Thái Tổ đánh đuổi được quân Mông Cổ, thống nhất đất nước, ông chuyên tâm sưu tầm và biên soạn dã sử.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 311,
+    "Input": "La Quán Trung là người đầu tiên đóng góp xuất sắc cho trường phái tiểu thuyết lịch sử thời Minh - Thanh ở Trung Quốc.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 312,
+    "Input": "Tam quốc diễn nghĩa ra đời vào đầu thời Minh (1368 - 1644), gồm 120 hồi.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 313,
+    "Input": "Chinh phụ ngâm, nguyên văn chữ Hán, do Đặng Trần Côn sáng tác.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 314,
+    "Input": "Đặng Trần Côn sống vào khoảng nửa đầu thế kỉ XVIII.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 315,
+    "Input": "Khúc ngâm này gồm 476 câu thơ làm theo thể trường đoản cú.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 316,
+    "Input": "Lập dàn ý là công việc lựa chọn và sắp xếp những nội dung cơ bản dự định triển khai vào bố cục ba phần của văn bản.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 317,
+    "Input": "Năm 1965, Hội đồng Hoà bình thế giới đã công nhận Nguyễn Du là danh nhân văn hoá thế giới và ra quyết định kỉ niệm trọng thể nhân dịp 200 năm năm sinh của ông.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 318,
+    "Input": "Thanh Hiên thi tập gồm 78 bài viết chủ yếu trong những năm tháng trước khi ra làm quan nhà Nguyễn.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 319,
+    "Input": "Nam trung tạp ngâm có 40 bài viết thời gian làm quan ở Huế và Quảng Bình.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 320,
+    "Input": "Bắc hành tạp lục gồm 131 bài thơ sáng tác trong chuyến đi sứ Trung Quốc.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 321,
+    "Input": "Nguyễn Du có Đoạn trường tân thanh (còn gọi là Truyện Kiều) và Văn chiêu hồn.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 322,
+    "Input": "Truyện Kiều được sáng tác trên cơ sở cốt truyện của tiểu thuyết chương hồi Trung Quốc Kim Vân Kiều truyện.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 323,
+    "Input": "Truyện Kiều là truyện thơ viết bằng thể thơ lục bát.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 324,
+    "Input": "Văn chiêu hồn nguyên tên là Văn tế thập loại chúng sinh viết bằng thể thơ song thất lục bát.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 325,
+    "Input": "Ngôn ngữ nghệ thuật trước hết là ngôn ngữ gợi hình, gợi cảm được dùng trong văn bản nghệ thuật.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 326,
+    "Input": "Ngôn ngữ nghệ thuật là ngôn ngữ chủ yếu dùng trong các tác phẩm văn chương, không chỉ có chức năng thông tin mà còn thoả mãn nhu cầu thẩm mĩ của con người.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 327,
+    "Input": "Phong cách ngôn ngữ nghệ thuật có ba đặc trưng cơ bản: tính hình tượng, tính truyền cảm và tính cá thể hoá.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 328,
+    "Input": "Tiêu chí phân định văn bản văn học là một vấn đề phức tạp, tuỳ thuộc vào quan niệm của mỗi quốc gia trong từng thời kì lịch sử để xác định.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 329,
+    "Input": "Đề tài là lĩnh vực đời sống được nhà văn nhận thức, lựa chọn, khái quát, bình giá và thể hiện trong văn bản.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 330,
+    "Input": "Chủ đề là vấn đề cơ bản được nêu ra trong văn bản.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 331,
+    "Input": "Tư tưởng của văn bản là sự lí giải đối với chủ đề đã nêu lên, là nhận thức của tác giả muốn trao đổi, nhắn gửi, đối thoại với người đọc.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 332,
+    "Input": "Cảm hứng nghệ thuật là nội dung tình cảm chủ đạo của văn bản.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 333,
+    "Input": "Ngôn từ là yếu tố đầu tiên của văn bản văn học.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 334,
+    "Input": "Kết cấu là sự sắp xếp, tổ chức các thành tố của văn bản thành một đơn vị thống nhất, hoàn chỉnh, có ý nghĩa.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 335,
+    "Input": "Thao tác nghị luận là một trong những loại thao tác mà con người vẫn thường tiến hành trong đời sống.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 336,
+    "Input": "Khoa học đã tìm được nhiều bằng cứ nói lên sự phát triển lâu dài từ động vật cấp thấp lên động vật cấp cao.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 337,
+    "Input": "Đỉnh cao của quá trình này là sự chuyển biến từ vượn thành người.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 338,
+    "Input": "Các nhà khảo cổ coi thời đá mới là một cuộc cách mạng khi con người từ săn bắn, lượm hái, đánh cá đã tiến tới biết trồng trọt và chăn nuôi.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 339,
+    "Input": "Từ khi Người tinh khôn xuất hiện, thị tộc hình thành cũng là bước đầu tiên của tổ chức xã hội loài người.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 340,
+    "Input": "Lần đầu tiên trên chặng đường dài của lịch sử loài người, con người có thể làm ra một lượng sản phẩm thừa.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 341,
+    "Input": "Trong xã hội nguyên thủy, sự công bằng và bình đẳng là nguyên tắc vàng.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 342,
+    "Input": "Thể chế chung của các quốc gia cổ đại phương Đông là chế độ quân chủ chuyên chế, trong đó vua là người nắm mọi quyền hành.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 343,
+    "Input": "Sự xuất hiện công cụ bằng kim loại đã báo hiệu sự tan vỡ hoàn toàn của chế độ công xã thị tộc và là khởi đầu của thời đại văn minh.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 344,
+    "Input": "Nô lệ là tầng lớp thấp nhất trong xã hội cổ đại phương Đông.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 345,
+    "Input": "Họ có nguồn gốc là những tù binh bị bắt trong chiến tranh hay những nông dân nghèo không trả được nợ.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 346,
+    "Input": "Chế độ nhà nước của xã hội có giai cấp đầu tiên ở phương Đông, trong đó vua là người đứng đầu, có quyền lực tối cao, gọi là chế độ chuyên chế cổ đại.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 347,
+    "Input": "Những tri thức Thiên văn học và Lịch pháp học ra đời vào loại sớm nhất ở các quốc gia cổ đại phương Đông.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 348,
+    "Input": "Chữ viết là một phát minh lớn của loài người.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 349,
+    "Input": "Do nhu cầu tính toán lại diện tích ruộng đất sau khi ngập nước, tính toán trong xây dựng, nên Toán học xuất hiện rất sớm ở phương Đông.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 350,
+    "Input": "Nằm trên bờ Bắc Địa Trung Hải, Hi Lạp và Rô-ma bao gồm bán đảo và nhiều đảo nhỏ.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 351,
+    "Input": "Khoảng đầu thiên niên kỉ I TCN, cư dân vùng Địa Trung Hải bắt đầu biết chế tạo công cụ bằng sắt.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 352,
+    "Input": "Sự ra đời của hệ thống chữ cái là một phát minh và cống hiến lớn lao của cư dân Địa Trung Hải cho nền văn minh nhân loại.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 353,
+    "Input": "Ở Trung Quốc vào những thế kỉ cuối trước Công nguyên, do sự phát triển sản xuất, xã hội phân hoá giai cấp, nên chế độ phong kiến được hình thành sớm.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 354,
+    "Input": "Sử học bắt đầu từ thời Tây Hán đã trở thành lĩnh vực nghiên cứu độc lập, mà người đặt nền móng là Tư Mã Thiên.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 355,
+    "Input": "Thơ Đường phản ánh toàn diện bộ mặt xã hội bấy giờ và đã đạt đến đỉnh cao của nghệ thuật.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 356,
+    "Input": "Tiểu thuyết là một hình thức văn học mới phát triển ở thời Minh, Thanh.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 357,
+    "Input": "Lãnh thổ Ấn Độ như hình tam giác ngược, hai bên giáp biển, cạnh phía bắc nối với châu Á.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 358,
+    "Input": "Đông Nam Á từ lâu vẫn được coi là một khu vực địa lí - lịch sử - văn hoá riêng biệt và còn được gọi là khu vực châu Á gió mùa.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 359,
+    "Input": "Đến những thế kỉ đầu Công nguyên, cư dân Đông Nam Á đã biết sử dụng đồ sắt.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 360,
+    "Input": "Từ những thế kỉ đầu Công nguyên, người Khơ-me đã học chữ Phạn của người Ấn.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 361,
+    "Input": "Từ thế kỉ VII, người Khơ-me đã sáng tạo nên hệ thống chữ viết riêng của mình.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 362,
+    "Input": "Từ thế kỉ V, trên lãnh thổ của đế quốc Rô-ma rộng lớn trước kia, dần hình thành các quốc gia của người Giéc-man.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 363,
+    "Input": "Bồ Đào Nha và Tây Ban Nha là những nước tiên phong trong các cuộc thám hiểm, khám phá ra những miền đất mới.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 364,
+    "Input": "Cách ngày nay 30 - 40 vạn năm, do có điều kiện tự nhiên, khí hậu thuận lợi cho sự sinh trưởng của cây cỏ và động vật nên trên đất nước ta sớm có con người sinh sống.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 365,
+    "Input": "Trên đất nước ta, các nhà khảo cổ học đã tìm thấy dấu tích Người tối cổ có niên đại cách ngày nay 30 - 40 vạn năm.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 366,
+    "Input": "Cách ngày nay khoảng 3000 - 4000 năm, các bộ lạc sống rải rác trên đất nước ta bắt đầu biết khai thác, sử dụng nguyên liệu đồng và thuật luyện kim để chế tạo công cụ.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 367,
+    "Input": "Trên cơ sở thời đại đồ đồng và sắt đã hình thành các quốc gia cổ đại: Văn Lang - Âu Lạc, Cham-pa, Phù Nam.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 368,
+    "Input": "Vào thời gian đầu của văn hoá Đông Sơn, các công cụ lao động bằng đồng thau trở nên phổ biến và bắt đầu có công cụ bằng sắt.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 369,
+    "Input": "Trên cơ sở của văn hoá Sa Huỳnh ở khu vực đồng bằng ven biển miền Trung và Nam Trung Bộ ngày nay, đã hình thành quốc gia cổ Cham-pa.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 370,
+    "Input": "Các nhà khảo cổ học gọi nền văn hoá cổ ở châu thổ sông Cửu Long là văn hoá Óc Eo.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 371,
+    "Input": "Năm 179 TCN, Âu Lạc bị nhà Triệu xâm chiếm.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 372,
+    "Input": "Chính quyền đô hộ thi hành chính sách bóc lột, cống nạp nặng nề.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 373,
+    "Input": "Mâu thuẫn bao trùm trong xã hội là mâu thuẫn giữa nhân dân ta với chính quyền đô hộ phương Bắc.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 374,
+    "Input": "Năm 40, cuộc khởi nghĩa chống ách đô hộ đầu tiên của nhân dân Âu Lạc bùng nổ.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 375,
+    "Input": "Thế kỉ X mở đầu thời đại phong kiến độc lập của dân tộc Việt Nam.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 376,
+    "Input": "Năm 939 Ngô Quyền xưng vương, bắt tay xây dựng chính quyền mới, đóng đô ở Cổ Loa.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 377,
+    "Input": "Năm 968, Đinh Bộ Lĩnh lên ngôi Hoàng đế, đặt quốc hiệu là Đại Cồ Việt, dời kinh đô về động Hoa Lư.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 378,
+    "Input": "Năm 1010, vua Lý Thái Tổ dời đô từ Hoa Lư về Thăng Long, mở ra một giai đoạn phát triển mới.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 379,
+    "Input": "Năm 1054, vua Lý Thánh Tông quyết định đổi tên nước là Đại Việt.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 380,
+    "Input": "Năm 1042, vua Lý Thái Tông ban hành bộ Hình thư - bộ luật thành văn đầu tiên của nước ta.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 381,
+    "Input": "Đầu thế kỉ X, sau khi giành được độc lập, tự chủ, nhân dân cả nước ra sức khai phá đất hoang, mở rộng ruộng đồng, phát triển nông nghiệp.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 382,
+    "Input": "Năm 980, được tin triều đình nhà Đinh gặp nhiều khó khăn, vua Tống vội cử quân sang xâm lược nước ta.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 383,
+    "Input": "Dưới sự lãnh đạo tài giỏi của Lý Thường Kiệt, quân dân ta đánh tan quân xâm lược Tống trong trận quyết chiến trên bờ sông Như Nguyệt.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 384,
+    "Input": "Dưới thời Trần, nhân dân Đại Việt trong vòng 30 năm phải tiến hành 3 lần kháng chiến chống quân xâm lược Mông - Nguyên hung bạo.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 385,
+    "Input": "Trong các thế kỉ X - XV, cùng với sự nghiệp chính trị, quân sự và phát triển kinh tế, nhân dân Việt Nam đã từng bước xây dựng cho mình một nền văn hoá mang đậm bản sắc dân tộc.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 386,
+    "Input": "Thời Lê sơ, Nho giáo được chính thức nâng lên địa vị độc tôn và vị trí đó được duy trì cho đến cuối thế kỉ XIX.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 387,
+    "Input": "Năm 1070, vua Lý Thánh Tông cho lập Văn Miếu.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 388,
+    "Input": "Năm 1075, khoa thi quốc gia đầu tiên được tổ chức ở kinh thành.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 389,
+    "Input": "Năm 1484, nhà nước quyết định dựng bia, ghi tên Tiến sĩ.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 390,
+    "Input": "Cuộc khủng hoảng chính trị ở đầu thế kỉ XVI đã làm sụp đổ triều Lê sơ.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 391,
+    "Input": "Năm 1527 Mạc Đăng Dung bắt vua Lê nhường ngôi và thành lập triều đại mới - triều Mạc.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 392,
+    "Input": "Sự phát triển của kinh tế hàng hoá đã tạo điều kiện thuận lợi cho sự hình thành và hưng khởi của đô thị.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 393,
+    "Input": "Thế kỉ XVII, cùng với sự truyền bá của Thiên Chúa giáo, chữ Quốc ngữ theo mẫu tự Latinh cũng được sáng tạo.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 394,
+    "Input": "Năm 1802, nhà Nguyễn được thành lập.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 395,
+    "Input": "Năm 1807, đã diễn ra khoa thi Hương đầu tiên dưới triều Nguyễn.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 396,
+    "Input": "Khoa thi Hội đầu tiên dưới triều Nguyễn được tổ chức vào năm 1822.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 397,
+    "Input": "Vào khoảng thế kỉ VII TCN, các tộc người Việt cổ trên đất Bắc Việt Nam đã hợp nhất lại, dựng nên quốc gia đầu tiên: Văn Lang và sau đó là Âu Lạc.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 398,
+    "Input": "Năm 1858, thực dân Pháp nổ súng xâm lược.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 399,
+    "Input": "Cách mạng Hà Lan là cuộc cách mạng tư sản đầu tiên trên thế giới.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 400,
+    "Input": "Cuối thế kỉ XVIII, Pháp vẫn là một nước nông nghiệp.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 401,
+    "Input": "Vào khoảng 30 năm cuối thế kỉ XIX, lực lượng sản xuất ở các nước tư bản đạt đến trình độ phát triển cao.",
+    "Output": {
+      "Error_Type_Id": 0,
+      "Fixed Sentence": []
+    }
+  },
+  {
+    "ID": 402,
+    "Input": "Ở đây khiến cho họ làm việc rất tích cực.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Ở đây họ làm việc rất tích cực.",
+        "Hoàn cảnh ở đây buộc họ làm việc rất tích cực."
+      ]
+    }
+  },
+  {
+    "ID": 403,
+    "Input": "Cho đến nay vẫn làm tôi băn khoăn về vấn đề ấy.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Cho đến nay tôi vẫn băn khoăn về vấn đề ấy.",
+        "Cho đến nay vấn đề ấy vẫn làm tôi băn khoăn."
+      ]
+    }
+  },
+  {
+    "ID": 404,
+    "Input": "Tình hình ta còn yếu hơn địch buộc ta phải đánh du kích.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Trong tình hình ta còn yếu hơn địch, ta buộc lòng phải đánh du kích.",
+        "Ta còn yếu hơn địch: tình hình này buộc ta phải đánh du kích."
+      ]
+    }
+  },
+  {
+    "ID": 405,
+    "Input": "Do hoàn cảnh nói trên cho thấy nó không còn cách gì khác.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Hoàn cảnh nói trên cho thấy nó không còn cách gì khác.",
+        "Do hoàn cảnh nói trên, ta thấy nó không còn cách gì khác."
+      ]
+    }
+  },
+  {
+    "ID": 406,
+    "Input": "Qua các dữ liệu ấy đã chứng minh rằng giải pháp ấy hoàn toàn đúng.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Các dữ liệu ấy đã chứng minh rằng giải pháp ấy hoàn toàn đúng.",
+        "Qua các dữ liệu ấy, ta có thể kết luận rằng giải pháp ấy hoàn toàn đúng."
+      ]
+    }
+  },
+  {
+    "ID": 407,
+    "Input": "Trong tai nạn giao thông này đã cho ta thấy rõ tác hại của rượu.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Tai nạn giao thông này cho ta thấy rõ tác hại của rượu.",
+        "Trong tai nạn giao thông này, ta thấy rõ tác hại của rượu."
+      ]
+    }
+  },
+  {
+    "ID": 408,
+    "Input": "Với những trở ngại này gây nên không ít khó khăn cho đội ta.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Những trở ngại này gây không ít khó khăn cho đội ta.",
+        "Do những trở ngại này, đội ta gặp không ít khó khăn."
+      ]
+    }
+  },
+  {
+    "ID": 409,
+    "Input": "Bởi những điển hình này đã tạo cho ta hiểu giá trị của tác phẩm.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Những điển hình này đã góp phần tạo nên giá trị của tác phẩm.",
+        "Nhờ những điển hình này, tác phẩm càng có thêm giá trị.",
+        "Những điển hình này đã làm cho tác phẩm tăng thêm giá trị."
+      ]
+    }
+  },
+  {
+    "ID": 410,
+    "Input": "Đến ga Vinh đã làm cho tôi thấy rõ cảnh nghèo đói của nông dân.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Đến ga Vinh, tôi đã thấy rõ thêm cảnh nghèo khổ của nông dân.",
+        "Quang cảnh ở ga Vinh làm cho tôi thấy rõ sự nghèo khổ của nông dân."
+      ]
+    }
+  },
+  {
+    "ID": 411,
+    "Input": "Về cảnh tượng này đã làm cho nó thấy ghê tởm.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Cảnh tượng này đã làm cho nó thấy ghê tởm.",
+        "Trước cảnh tượng này, nó cảm thấy ghê tởm.",
+        "Nó cảm thấy ghê tởm khi trông thấy cảnh tượng này."
+      ]
+    }
+  },
+  {
+    "ID": 412,
+    "Input": "Trên cơ sở những sự việc ấy cho phép cô kết luận rằng nó nhầm.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Trên cơ sở những sự việc ấy, cô kết luận rằng nó nhầm.",
+        "Những sự việc ấy cho phép cô kết luận rằng nó nhầm."
+      ]
+    }
+  },
+  {
+    "ID": 413,
+    "Input": "Khi biết được những hậu quả của việc vừa làm đã khiến cho nó rất buồn.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Khi biết được những hậu quả của việc vừa làm, nó rất buồn.",
+        "Những hậu quả của việc vừa qua khiến cho nó rất buồn.",
+        "Nó rất buồn khi thấy những hậu quả của việc mình vừa làm."
+      ]
+    }
+  },
+  {
+    "ID": 414,
+    "Input": "Trước thái độ hống hách của lão tạo cho nó hiểu bản tính cường hào.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Thái độ hống hách của lão làm cho nó hiểu thêm bản tính của bọn cường hào.",
+        "Trước thái độ hống hách của lão, nó càng hiểu thêm bản tính của bọn cường hào."
+      ]
+    }
+  },
+  {
+    "ID": 415,
+    "Input": "Sau sự cố đó đã gây nên nỗi bất bình trước sự vô trách nhiệm của họ.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Sau sự cố đó, ai nấy đều bất bình vì sự vô trách nhiệm của họ.",
+        "Sự cố đó cho thấy một thái độ vô trách nhiệm khiến mọi người bất bình.",
+        "Sự cố đó làm cho mọi người bất bình vì sự vô trách nhiệm của họ."
+      ]
+    }
+  },
+  {
+    "ID": 416,
+    "Input": "Trong lớp em được lát bằng gạch tráng men.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Lớp em được lát bằng gạch tráng men.",
+        "Trong lớp em, nền được lát bằng gạch tráng men.",
+        "Lớp em (thì) nền được lát bằng gạch tráng men."
+      ]
+    }
+  },
+  {
+    "ID": 417,
+    "Input": "Thế kỷ XX đã diễn ra mấy cuộc chiến tranh lớn.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Trong thế kỷ XX đã diễn ra mấy cuộc chiến tranh lớn.",
+        "Thế kỷ XX đã chứng kiến mấy cuộc chiến tranh lớn."
+      ]
+    }
+  },
+  {
+    "ID": 418,
+    "Input": "Hôm họ lên đường là cuối tháng giêng.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Họ lên đường (là) vào cuối tháng giêng.",
+        "Họ lên đường vào một ngày cuối tháng giêng.",
+        "Hôm họ lên đường là một ngày cuối tháng giêng."
+      ]
+    }
+  },
+  {
+    "ID": 419,
+    "Input": "Khoảng cách giữa hai sự việc diễn ra chỉ cách nhau ba tháng.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Hai sự việc ấy diễn ra chỉ cách nhau mấy tháng.",
+        "Khoảng cách giữa hai sự việc ấy chỉ có mấy tháng."
+      ]
+    }
+  },
+  {
+    "ID": 420,
+    "Input": "Ngôi nhà này tôi đã ra đời và đã sống qua những ngày thơ ấu.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Trong ngôi nhà này tôi đã ra đời và đã sống qua những ngày thơ ấu.",
+        "Ngôi nhà này là nơi tôi đã ra đời và đã sống qua những ngày thơ ấu."
+      ]
+    }
+  },
+  {
+    "ID": 421,
+    "Input": "Chị ấy thật ra là mẹ của tôi.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Người chị ấy thật ra chính là một người mẹ của tôi.",
+        "Người chị ấy đối với tôi chẳng khác nào một người mẹ."
+      ]
+    }
+  },
+  {
+    "ID": 422,
+    "Input": "Bốn nhân vật ấy bị người đọc không có thiện cảm cho lắm.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Đối với bốn nhân vật ấy, người đọc không có thiện cảm lắm.",
+        "Bốn nhân vật ấy không có được bao nhiêu thiện cảm của người đọc."
+      ]
+    }
+  },
+  {
+    "ID": 423,
+    "Input": "Hai gia đình đã xảy ra mất đoàn kết nghiêm trọng.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Giữa hai gia đình đã xảy ra một vụ xích mích nghiêm trọng.",
+        "Hai gia đình đã có chuyện xích mích nghiêm trọng với nhau."
+      ]
+    }
+  },
+  {
+    "ID": 424,
+    "Input": "Vì không thuộc bài nên Nam phải trốn nghỉ một buổi học.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Vì không thuộc bài, Nam phải nghỉ một buổi học.",
+        "Nam không thuộc bài cho nên phải nghỉ một buổi học."
+      ]
+    }
+  },
+  {
+    "ID": 425,
+    "Input": "Chỉ vì không trông thấy thầy vào cho nên Nam không đứng dậy.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Chỉ vì không trông thấy thầy vào, Nam không đứng dậy.",
+        "Nam không trông thấy thầy vào, cho nên mới không đứng dậy."
+      ]
+    }
+  },
+  {
+    "ID": 426,
+    "Input": "Tuy không biết tiếng Anh, nhưng Minh vẫn hiểu ông ta muốn nói gì.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Tuy không biết tiếng Anh, Minh vẫn hiểu ông ta muốn nói gì.",
+        "Minh không biết tiếng Anh, nhưng vẫn hiểu ông ta muốn nói gì."
+      ]
+    }
+  },
+  {
+    "ID": 427,
+    "Input": "Mặc dầu cô giáo đã dặn kỹ là mai phải nộp bài, nhưng Lan vẫn không nộp.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Mặc dầu cô giáo đã dặn kỹ là mai phải nộp bài, Lan vẫn không nhớ nộp.",
+        "Cô giáo đã dặn kỹ là mai phải nộp bài, thế mà Lan vẫn không nhớ."
+      ]
+    }
+  },
+  {
+    "ID": 428,
+    "Input": "Thấy thể lực mình không chọi được với đối thủ nên tôi đành bỏ cuộc.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Thấy sức mình không chọi nổi đối thủ, tôi đành bỏ cuộc.",
+        "Tôi thấy sức mình không chọi nổi đối thủ, nên đành bỏ cuộc."
+      ]
+    }
+  },
+  {
+    "ID": 429,
+    "Input": "Vừa về đến nhà, con chó vàng đã chạy ra cổng đón chủ.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Vừa trông thấy chủ về, con chó vàng đã chạy ra cổng đón.",
+        "Con chó vàng vừa trông thấy chủ về đã chạy ngay ra cổng đón.",
+        "Ông chủ vừa về, con chó vàng đã chạy ngay ra cổng đón."
+      ]
+    }
+  },
+  {
+    "ID": 430,
+    "Input": "Sau khi từ biệt vợ con ra đi, người thiếu phụ ốm yếu ấy không còn chút hy vọng nào gặp lại chồng mình nữa.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Sau khi người chồng từ biệt vợ con ra đi, người thiếu phụ ốm yếu ấy không còn chút hy vọng nào gặp lại chồng mình nữa.",
+        "Sau khi tiễn chồng ra đi, người thiếu phụ ốm yếu ấy không còn chút hy vọng nào gặp lại chồng mình nữa."
+      ]
+    }
+  },
+  {
+    "ID": 431,
+    "Input": "Vừa làm thịt xong con lợn, nhưng xóm giềng đã xúm lại đánh đụng.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Con lợn vừa làm thịt xong, xóm giềng đã xúm lại đánh đụng.",
+        "Nhà làm thịt con lợn vừa xong, xóm giềng đã xúm vào đánh đụng."
+      ]
+    }
+  },
+  {
+    "ID": 432,
+    "Input": "Một hôm gặp trời mưa bão nên tôi đành ngồi yên ở nhà.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Hôm ấy gặp trời mưa bão, tôi đành ngồi yên ở nhà.",
+        "Hôm ấy trời mưa bão cho nên tôi đành ngồi yên ở nhà.",
+        "Hôm ấy tôi thấy trời mưa bão cho nên đành ngồi yên ở nhà."
+      ]
+    }
+  },
+  {
+    "ID": 433,
+    "Input": "Trong tình hình quá phức tạp cho nên chúng tôi không khỏi phạm phải các tồn tại nghiêm trọng.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Tình hình quá phức tạp cho nên chúng tôi không tránh khỏi những sai sót khá nghiêm trọng.",
+        "Trong một tình hình quá phức tạp như thế này, chúng tôi không tránh khỏi những sai sót khá nghiêm trọng."
+      ]
+    }
+  },
+  {
+    "ID": 434,
+    "Input": "Bằng những thủ đoạn nham hiểm và tinh vi mà chúng đã làm cho ta mất cảnh giác cao độ.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Bằng những thủ đoạn nham hiểm và tinh vi, chúng đã làm cho ta mất cảnh giác đến cao độ.",
+        "Những thủ đoạn nham hiểm và tinh vi của chúng đã làm cho ta mất cảnh giác đến cao độ."
+      ]
+    }
+  },
+  {
+    "ID": 435,
+    "Input": "Với sự nhiệt tình của các bạn nên chúng ta nhất định vượt chỉ tiêu năm nay hơn năm ngoái 30%.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Với nhiệt tình của các bạn, năm nay chúng ta nhất định vượt chỉ tiêu năm ngoái đến 30%.",
+        "Năm nay, nhiệt tình của các bạn nhất định sẽ giúp chúng ta vượt chỉ tiêu năm ngoái đến 30%."
+      ]
+    }
+  },
+  {
+    "ID": 436,
+    "Input": "Về vấn đề phức tạp này nên chúng ta không thể giải quyết vội vàng như vậy sẽ bất cập.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Về cái vấn đề phức tạp này, chúng ta không thể giải quyết vội vàng như vậy, vì kết quả sẽ bất cập.",
+        "Vấn đề này phức tạp nên chúng ta không thể giải quyết vội vàng như vậy, vì kết quả sẽ bất cập."
+      ]
+    }
+  },
+  {
+    "ID": 437,
+    "Input": "Những tên lính địch bị thương nơi khác.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Những tên lính địch bị thương khác đều được cứu chữa cẩn thận.",
+        "Những tên lính địch đều bị thương ở một nơi khác."
+      ]
+    }
+  },
+  {
+    "ID": 438,
+    "Input": "Vừa qua những học sinh trường N. thi đỗ và được gửi đi học ở Đức.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Vừa qua các học sinh trường N. đều đã thi đỗ.",
+        "Vừa qua những học sinh trường N. đã thi đỗ đều được du học ở Đức."
+      ]
+    }
+  },
+  {
+    "ID": 439,
+    "Input": "Sáng nay hai người già bị thương nặng vì tai nạn giao thông.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Sáng nay có hai người già bị tai nạn giao thông.",
+        "Sáng nay hai người già bị tai nạn giao thông đã được đưa vào bệnh viện."
+      ]
+    }
+  },
+  {
+    "ID": 440,
+    "Input": "Rồi đây những bệnh viện được trang bị rất hiện đại, có nhiều bác sĩ giỏi.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Rồi đây ta sẽ có những bệnh viện được trang bị rất hiện đại, với nhiều bác sĩ giỏi.",
+        "Rồi đây các bệnh viện sẽ được trang bị rất hiện đại, sẽ có nhiều bác sĩ giỏi."
+      ]
+    }
+  },
+  {
+    "ID": 441,
+    "Input": "Được biết anh vừa đỗ đầu... vì vậy nên chúng tôi xin đến chúc mừng anh.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Được biết anh vừa đỗ đầu trong kỳ thi tốt nghiệp, chúng tôi xin đến chúc mừng anh.",
+        "Chúng tôi được biết anh vừa đỗ đầu trong kỳ thi tốt nghiệp, cho nên xin đến chúc mừng anh."
+      ]
+    }
+  },
+  {
+    "ID": 442,
+    "Input": "Hai tay nó cầm hai hòn gạch, xông thẳng vào nhà.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Hai tay cầm hai hòn gạch, nó xông thẳng vào nhà.",
+        "Nó cầm hai tay hai hòn gạch, xông thẳng vào nhà."
+      ]
+    }
+  },
+  {
+    "ID": 443,
+    "Input": "Nếu ai thắng thì được lĩnh 2000.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Ai thắng thì (người ấy) được lĩnh 2000.",
+        "Nếu thắng thì lĩnh 2000."
+      ]
+    }
+  },
+  {
+    "ID": 444,
+    "Input": "Nếu ở đâu có mật thì ở đó lắm ruồi.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Ở đâu có mật (thì) ở đó lắm ruồi.",
+        "Hễ có mật là lắm ruồi."
+      ]
+    }
+  },
+  {
+    "ID": 445,
+    "Input": "(Dù có) trăm hay thì cũng không bằng tay quen.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Trăm hay (thì cũng) không bằng tay quen.",
+        "(Dù) trăm hay cũng không bằng tay quen."
+      ]
+    }
+  },
+  {
+    "ID": 446,
+    "Input": "Hễ càng đi nhanh thì càng chóng đến.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Càng đi nhanh (thì) càng chóng đến.",
+        "(Hễ) đi nhanh thì chóng đến."
+      ]
+    }
+  },
+  {
+    "ID": 447,
+    "Input": "Cái gì càng to thì cái ấy càng nặng.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Càng to (thì) càng nặng.",
+        "Đã to thì phải nặng."
+      ]
+    }
+  },
+  {
+    "ID": 448,
+    "Input": "Khi nào trời mưa càng to thì càng lạnh.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Mưa càng to (thì) càng lạnh.",
+        "Mưa to thì lạnh."
+      ]
+    }
+  },
+  {
+    "ID": 449,
+    "Input": "Lý do khiến cho anh vắng mặt là vì anh sợ gặp tôi.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Lý do khiến cho anh vắng mặt là anh sợ gặp tôi.",
+        "(Sở dĩ) anh vắng mặt là vì anh sợ gặp tôi."
+      ]
+    }
+  },
+  {
+    "ID": 450,
+    "Input": "Nơi xuất phát là từ cầu Chữ Y.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Nơi xuất phát là cầu Chữ Y.",
+        "Họ xuất phát từ cầu Chữ Y."
+      ]
+    }
+  },
+  {
+    "ID": 451,
+    "Input": "Đích của cuộc đua là đến Ngã ba Ông Tạ.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Đích của cuộc đua là Ngã ba Ông Tạ.",
+        "Cuộc đua đến Ngã ba Ông Tạ thì kết thúc."
+      ]
+    }
+  },
+  {
+    "ID": 452,
+    "Input": "Tôi đồng ý với điều kiện là nếu anh phải chịu chi tiền.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Tôi đồng ý với điều kiện là anh phải chi tiền.",
+        "Tôi đồng ý nếu anh chịu chi tiền."
+      ]
+    }
+  },
+  {
+    "ID": 453,
+    "Input": "Mục đích của tôi là để làm cho học sinh hiểu bài thật rõ.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Mục đích của tôi là làm cho học sinh hiểu bài thật rõ.",
+        "Tôi làm như thế là để cho học sinh hiểu bài thật rõ."
+      ]
+    }
+  },
+  {
+    "ID": 454,
+    "Input": "Toàn thể học sinh của trường, kể cả các giáo viên, đều hoan nghênh.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Toàn thể học sinh của trường, và cả các giáo viên nữa, đều hoan nghênh.",
+        "Toàn thể học sinh của trường, kể cả học sinh các lớp trên, đều hoan nghênh."
+      ]
+    }
+  },
+  {
+    "ID": 455,
+    "Input": "Tất cả các công nhân, trong đó có cả những kỹ sư, đều đình công.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Tất cả các công nhân, trong đó có cả những công nhân kỳ cựu nhất, đều đình công.",
+        "Tất cả các công nhân và tất cả các kỹ sư đều đình công."
+      ]
+    }
+  },
+  {
+    "ID": 456,
+    "Input": "Những nghệ nhân ưu tú nhất, kể cả những người mới vào học nghề, đều làm ra những sản phẩm chất lượng cao.",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Những nghệ nhân ưu tú, và ngay cả những người mới vào học nghề, đều làm ra những sản phẩm chất lượng cao.",
+        "Những nghệ nhân ưu tú nhất cũng như những người mới vào học nghề, đều làm ra những sản phẩm chất lượng cao."
+      ]
+    }
+  },
+  {
+    "ID": 457,
+    "Input": "Nó hỏi rằng tôi có biết việc ấy không?",
+    "Output": {
+      "Error_Type_Id": 1,
+      "Fixed Sentence": [
+        "Nó hỏi là/xem tôi có biết việc ấy không.",
+        "Nó hỏi tôi: “Anh có biết việc ấy không?”."
+      ]
+    }
+  }
+]
