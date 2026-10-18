@@ -24,7 +24,7 @@ Không dùng BARTpho S0 `best_correction` làm classifier; không dùng decoder 
 | Classifier BARTpho S0 | `bartpho-attention-final-full-42/best_classification` |
 | Corrector BARTpho mới | `step-00002238-09c10cc9af21` |
 
-Identity đầy đủ nằm trong [`checkpoints.json`](checkpoints.json). Ensemble trung bình **xác suất sau softmax** theo nhãn `[0,1,2,3,4]`, mỗi model 0.5, temperature 1. Corrector chọn output hợp lệ đầu tiên trong trace generator theo thứ tự beam, rồi mới áp dụng quy tắc nhãn 0. Việc chọn câu sửa không sử dụng gold/reference hay điểm reranker.
+Identity và SHA256 các file checkpoint/tokenizer cần thiết nằm trong [`checkpoints.json`](checkpoints.json). Hash Bami/BART mới lấy từ audit snapshot lịch sử; hash S0 lấy từ bản checkpoint local đã dùng đối chiếu. Ensemble trung bình **xác suất sau softmax** theo nhãn `[0,1,2,3,4]`, mỗi model 0.5, temperature 1. Corrector chọn output hợp lệ đầu tiên trong trace generator theo thứ tự beam, rồi mới áp dụng quy tắc nhãn 0. Việc chọn câu sửa không sử dụng gold/reference hay điểm reranker.
 
 ## Cấu trúc
 

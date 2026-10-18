@@ -18,7 +18,11 @@ LABELS = SPEC["label_order"]
 
 
 def sha_file(path: Path) -> str:
-    return hashlib.sha256(path.read_bytes()).hexdigest()
+    digest = hashlib.sha256()
+    with path.open("rb") as stream:
+        for chunk in iter(lambda: stream.read(8 * 1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
 
 
 def sha_text(text: str) -> str:
@@ -75,6 +79,8 @@ def validate_metadata(path: Path, role: str, input_path: Path, count: int):
         raise ValueError(f"{role} metadata role/count/label order mismatch")
     if meta.get("input_file_sha256") != sha_file(input_path):
         raise ValueError(f"{role} inference input hash mismatch")
+    if "output_sha256" in meta and meta["output_sha256"] != sha_file(path):
+        raise ValueError(f"{role} probability file checksum mismatch")
     if meta.get("identity") != expected["identity"]:
         raise ValueError(f"{role} checkpoint identity mismatch")
     checkpoint = str(meta.get("checkpoint", ""))
@@ -83,11 +89,47 @@ def validate_metadata(path: Path, role: str, input_path: Path, count: int):
             raise ValueError("Wrong Bami snapshot")
         if meta.get("config_hash") != expected["config_hash"] or meta.get("inference_batch") != 32:
             raise ValueError("Wrong Bami config or inference batch")
+        expected_tokens = {Path(name).name: digest for name, digest in expected["file_sha256"].items()
+                           if name.startswith("tokenizer/")}
+        if "tokenizer_sha256" in meta and meta["tokenizer_sha256"] != expected_tokens:
+            raise ValueError("Wrong Bami tokenizer files")
     elif not checkpoint.endswith(expected["run"] + "/" + expected["checkpoint"]):
         raise ValueError("Wrong S0 best_classification checkpoint")
+    if role == "s0":
+        hashes = expected["file_sha256"]
+        cfg_hash = meta.get("config_sha256", meta.get("resolved_config_sha256"))
+        if cfg_hash != hashes["resolved_config.json"]:
+            raise ValueError("Wrong S0 resolved config file")
+        expected_tokens = {name: hashes[name] for name in ("sentencepiece.bpe.model", "dict.txt", "tokenizer_config.json")}
+        if "tokenizer_sha256" in meta and meta["tokenizer_sha256"] != expected_tokens:
+            raise ValueError("Wrong S0 tokenizer files")
+        for field, name in (("head_sha256", "classifier.pt"), ("attention_pool_sha256", "attention_pool.pt")):
+            if field in meta and meta[field] != hashes[name]:
+                raise ValueError("Wrong S0 " + name)
     if meta.get("model_eval") is not True or meta.get("inference_mode") is not True or meta.get("softmax_temperature") != 1:
         raise ValueError(f"{role} was not run in the recorded inference mode")
     return meta, meta_path
+
+
+def validate_bart_metadata(path: Path, input_path: Path, count: int):
+    """Verify the runner's metadata when present; legacy audited cache is row-bound."""
+    meta_path = path.with_suffix(".metadata.json")
+    if not meta_path.is_file():
+        return None
+    meta = load_json(meta_path)
+    expected = SPEC["bart_corrector"]
+    if (meta.get("role") != "bart" or meta.get("rows") != count
+            or meta.get("identity") != expected["identity"]
+            or not str(meta.get("checkpoint", "")).endswith("/" + expected["snapshot"]) 
+            or meta.get("input_file_sha256") != sha_file(input_path)
+            or meta.get("output_sha256") != sha_file(path)
+            or meta.get("model_eval") is not True or meta.get("inference_mode") is not True):
+        raise ValueError("BART correction metadata/checksum mismatch")
+    expected_tokens = {Path(name).name: digest for name, digest in expected["file_sha256"].items()
+                       if name.startswith("tokenizer/")}
+    if meta.get("tokenizer_sha256") != expected_tokens:
+        raise ValueError("Wrong BART correction tokenizer")
+    return meta_path
 
 
 def probabilities(row: dict, source: str) -> list[float]:
@@ -160,6 +202,7 @@ def main():
     bart = load_jsonl(args.bart_predictions)
     bmeta, bmeta_path = validate_metadata(args.bami_probs, "bami", args.input, len(raw))
     smeta, smeta_path = validate_metadata(args.s0_probs, "s0", args.input, len(raw))
+    bart_meta_path = validate_bart_metadata(args.bart_predictions, args.input, len(raw))
     internal, submission = assemble(raw, bami, s0, bart)
     args.output_dir.mkdir(parents=True, exist_ok=True)
     internal_path = args.output_dir / "internal.jsonl"
@@ -177,7 +220,8 @@ def main():
                 "source_hashes": {name: sha_file(path) for name, path in {
                     "bami_probabilities": args.bami_probs, "s0_probabilities": args.s0_probs,
                     "bart_predictions": args.bart_predictions,
-                    "bami_metadata": bmeta_path, "s0_metadata": smeta_path}.items()},
+                    "bami_metadata": bmeta_path, "s0_metadata": smeta_path,
+                    **({"bart_metadata": bart_meta_path} if bart_meta_path else {})}.items()},
                 "checkpoint_identities": {"bami": bmeta["identity"], "s0": smeta["identity"]},
                 "results_sha256": sha_file(results_path), "zip_sha256": sha_file(zip_path),
                 "no_gold_or_reranker_used": True, "leaderboard_submitted": False}

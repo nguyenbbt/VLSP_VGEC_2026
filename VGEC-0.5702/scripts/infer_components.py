@@ -31,6 +31,10 @@ def check_checkpoint(role: str, checkpoint: Path):
             raise ValueError(f"Wrong {role} checkpoint identity")
         if not (checkpoint / "model.pt").is_file() or not (checkpoint / "tokenizer").is_dir():
             raise FileNotFoundError(f"Incomplete {role} checkpoint")
+        for name, expected_hash in expected["file_sha256"].items():
+            path = checkpoint / name
+            if not path.is_file() or sha_file(path) != expected_hash:
+                raise ValueError(f"Missing or mismatched {role} checkpoint file: {name}")
         return expected["identity"]
     expected = SPEC["s0_classifier"]
     cfg, manifest = checkpoint / "resolved_config.json", checkpoint / "run_manifest.json"
@@ -46,6 +50,10 @@ def check_checkpoint(role: str, checkpoint: Path):
     for name in ("model.safetensors", "classifier.pt", "attention_pool.pt", "sentencepiece.bpe.model", "dict.txt"):
         if not (checkpoint / name).is_file():
             raise FileNotFoundError("S0 checkpoint missing " + name)
+    for name, expected_hash in expected["file_sha256"].items():
+        path = checkpoint / name
+        if not path.is_file() or sha_file(path) != expected_hash:
+            raise ValueError("Missing or mismatched S0 checkpoint file: " + name)
     return expected["identity"]
 
 
@@ -124,6 +132,9 @@ def model_rows(role: str, raw: list[dict], checkpoint: Path, device: str):
                 "config_hash": cfg["_config_hash"], "model_eval": True, "inference_mode": True,
                 "inference_batch": batch, "device": str(device), "label_order": LABELS,
                 "softmax_temperature": 1}
+        meta["tokenizer_sha256"] = {Path(name).name: expected_hash for name, expected_hash in
+             SPEC["bami_classifier" if role == "bami" else "bart_corrector"]["file_sha256"].items()
+             if name.startswith("tokenizer/")}
         return output, meta
 
     from vgec.models.seq2seq import load_checkpoint
@@ -150,6 +161,8 @@ def model_rows(role: str, raw: list[dict], checkpoint: Path, device: str):
             "config_sha256": sha_file(checkpoint / "resolved_config.json"),
             "head_sha256": sha_file(checkpoint / "classifier.pt"),
             "attention_pool_sha256": sha_file(checkpoint / "attention_pool.pt"),
+            "tokenizer_sha256": {name: sha_file(checkpoint / name)
+                                  for name in ("sentencepiece.bpe.model", "dict.txt", "tokenizer_config.json")},
             "model_eval": True, "inference_mode": True, "inference_batch": 8,
             "device": str(device), "label_order": LABELS, "softmax_temperature": 1}
     return output, meta

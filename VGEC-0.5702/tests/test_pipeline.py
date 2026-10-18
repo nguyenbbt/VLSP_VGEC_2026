@@ -7,6 +7,7 @@ from pathlib import Path
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -93,6 +94,49 @@ class PipelineTests(unittest.TestCase):
                 for name in ("sentencepiece.bpe.model", "dict.txt"):
                     (base / name).write_bytes(b"test")
                 check_checkpoint("s0", base)
+
+    def test_checkpoint_hash_rejects_swapped_weights(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            base = Path(tmp) / pipeline.SPEC["bami_classifier"]["snapshot"]
+            tokenizer = base / "tokenizer"
+            tokenizer.mkdir(parents=True)
+            (base / "identity.json").write_text(json.dumps({
+                "identity": pipeline.SPEC["bami_classifier"]["identity"]}), encoding="utf-8")
+            model = base / "model.pt"
+            model.write_bytes(b"original test weights")
+            token = tokenizer / "tokenizer.json"
+            token.write_bytes(b"original test tokenizer")
+            expected = {"model.pt": hashlib.sha256(model.read_bytes()).hexdigest(),
+                        "tokenizer/tokenizer.json": hashlib.sha256(token.read_bytes()).hexdigest()}
+            with patch.dict(pipeline.SPEC["bami_classifier"], {"file_sha256": expected}):
+                self.assertEqual(check_checkpoint("bami", base),
+                                 pipeline.SPEC["bami_classifier"]["identity"])
+                model.write_bytes(b"swapped test weights")
+                with self.assertRaisesRegex(ValueError, "model.pt"):
+                    check_checkpoint("bami", base)
+
+    def test_bart_cache_metadata_rejects_changed_rows(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            base = Path(tmp)
+            input_path = base / "input.json"
+            input_path.write_text('[{"ID": 1, "Input": "Source."}]', encoding="utf-8")
+            cache = base / "bart_predictions.jsonl"
+            cache.write_text('{"ID": 1}\n', encoding="utf-8")
+            expected = pipeline.SPEC["bart_corrector"]
+            meta = {"role": "bart", "rows": 1,
+                    "identity": expected["identity"],
+                    "checkpoint": "bart-final/" + expected["snapshot"],
+                    "input_file_sha256": pipeline.sha_file(input_path),
+                    "output_sha256": pipeline.sha_file(cache),
+                    "model_eval": True, "inference_mode": True,
+                    "tokenizer_sha256": {Path(name).name: digest for name, digest in expected["file_sha256"].items()
+                                          if name.startswith("tokenizer/")}}
+            cache.with_suffix(".metadata.json").write_text(json.dumps(meta), encoding="utf-8")
+            self.assertEqual(pipeline.validate_bart_metadata(cache, input_path, 1),
+                             cache.with_suffix(".metadata.json"))
+            cache.write_text('{"ID": 2}\n', encoding="utf-8")
+            with self.assertRaisesRegex(ValueError, "checksum"):
+                pipeline.validate_bart_metadata(cache, input_path, 1)
 
 
 if __name__ == "__main__":
