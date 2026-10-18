@@ -1,0 +1,22 @@
+{
+  "bami_classifier": {
+    "snapshot": "step-00002632-551882ef4edc",
+    "identity": "b5d0f3cbaa574445c7e76568a65f369b20682889c30adddbe04333d7f8cc2f91",
+    "config_hash": "270f544a79c4406ca18e857de3c1b09b694c86f694d5a5abf866bb19bcc9d840"
+  },
+  "s0_classifier": {
+    "run": "bartpho-attention-final-full-42",
+    "checkpoint": "best_classification",
+    "identity": "eafc3767392d55f6f4c23775663362a70843e4b1fa018bf795cb668da9556c88",
+    "pooling": "attention"
+  },
+  "bart_corrector": {
+    "snapshot": "step-00002238-09c10cc9af21",
+    "identity": "edd810a22df15478a2bdb17fc58e692c898d74dc59a6bd6ddfda7ac083d83750"
+  },
+  "label_order": [0, 1, 2, 3, 4],
+  "ensemble_weights": {"bami": 0.5, "s0": 0.5},
+  "temperature": 1,
+  "selector": "first valid BARTpho correction-only generation in original beam order, else raw Input",
+  "label_zero_export": []
+}

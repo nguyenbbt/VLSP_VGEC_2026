@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vgec-s0"
+version = "0.1.0"
+description = "Vietnamese grammatical error correction with auditable full fine-tuning"
+requires-python = ">=3.11"
+dependencies = ["PyYAML==6.0.3"]
+
+[project.optional-dependencies]
+train = ["torch==2.8.0", "transformers==4.57.1", "sentencepiece==0.2.1", "safetensors==0.6.2", "numpy==2.2.6"]
+modal = ["modal>=1.6,<2"]
+
+[project.scripts]
+vgec = "vgec.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

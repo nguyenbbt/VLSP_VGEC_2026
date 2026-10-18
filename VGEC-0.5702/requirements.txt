@@ -1,0 +1,6 @@
+PyYAML==6.0.3
+torch==2.8.0
+transformers==4.57.1
+sentencepiece==0.2.1
+safetensors==0.6.2
+numpy==2.2.6
