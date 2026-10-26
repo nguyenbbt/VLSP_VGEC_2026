@@ -1,0 +1,3 @@
+# CPU audit and Modal submission only; GPU libraries are installed in Modal Image.
+modal>=1.6,<2
+PyYAML==6.0.3

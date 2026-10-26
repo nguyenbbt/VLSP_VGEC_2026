@@ -1,0 +1,5 @@
+train: data/raw/final_data.json
+dev: data/raw/dev.json
+expected_train: 7153
+prepared_dir: data/prepared
+report_dir: reports/data
