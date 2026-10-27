@@ -106,7 +106,7 @@ The three model branches use the author-supplied final dataset. Dataset origin, 
 
 ## 4. Environment
 
-The current training and inference entrypoints explicitly request one **A100-40GB** GPU per worker. This is the hardware setting implemented in the supplied Python code; an A10-24GB setting is not the documented reproduction configuration. Local preparation and export run on CPU. The Modal image specifies:
+The current training and inference entrypoints explicitly request one **A10-24GB** GPU per worker. This is the hardware setting implemented in the supplied Python code; an A10-24GB setting is not the documented reproduction configuration. Local preparation and export run on CPU. The Modal image specifies:
 
 ```text
 Python 3.11
