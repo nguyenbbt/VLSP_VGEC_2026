@@ -1,0 +1,20 @@
+{
+  "status": "prepared",
+  "source_sha256": {
+    "the_final_data (1).json": "69caf7b8b5508176ebb0f169d24bd7c68104b2a047eaf36e2dbd1d6087041840",
+    "dev.json": "9ecdd1529e28264f6e6c789cf49da48ac5caf4ed92509d09201fc77a17fb7037",
+    "data\\prepared_final\\train.jsonl": "37c8b3e6e208ff2b44bb3b047b60adb57b08022a3d4f28f81fd39adb1443ffa1"
+  },
+  "prepared_sha256": {
+    "s0_full.jsonl": "262eb0d41683d27992e9e9bab075d19d1851545b769cc491750fe47576cfac71",
+    "sub1_full.jsonl": "f4c1e413812db321c77fb355d25d6963c58d8d891272912dd6166fbecc487df2",
+    "sub1_bart_full.jsonl": "2d7e03aaebdc27b3a5c253f82c71a52587b0068bdc812317aa3fb45e1a837943"
+  },
+  "counts": {
+    "s0": 7153,
+    "bami": 7153,
+    "bart": 7097
+  },
+  "dev_sources_in_optimizer": 90,
+  "selection": "fixed_historical_epoch; no validation on optimizer-exposed dev"
+}
