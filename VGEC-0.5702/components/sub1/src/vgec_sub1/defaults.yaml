@@ -1,0 +1,256 @@
+schema_version: sub1-config-v2
+run_name: sub1-a100-final-v1
+track: constrained
+parameter_limit_exclusive: 8000000000
+seed: 42
+training_profile: fresh_train
+output_dir: artifacts/sub1-a100-final-v1
+data:
+  root: .
+  gold: preprocessed_btc.json
+  gold_view: processed_btc
+  gold_raw_optional: null
+  dev: dev.json
+  test: private_test.json
+  supplied_final: the_final_data (1).json
+  prepared_dir: data/processed
+  synthetic: null
+  audit_resolutions: null
+  training_view: supplied_final_minus_dev_grouped
+  evaluation_views:
+  - dev_user
+  taxonomy_version: vgec_gold_observed_v2
+  eligibility_mode: unverified_exploratory
+  unknown_ancestry_allowed: true
+  synthetic_weight: 0.3
+  gold_weight: 1.0
+  mixed_gold_fraction: 0.5
+  grouped_folds: 3
+  inner_refit: false
+  mode: supplied_final_exploratory
+  provided_source_weights: uniform
+  infer_origin_from_id: false
+  fold_seed: 42
+  inner_validation_fraction: 0.2
+  final_inner_fraction: 0.15
+  raw_text_preserved: true
+models:
+  bami:
+    pretrained: Qualcomm-AI-Research/BamiBERT
+    revision: 57bc1340debbe4e348ec549047a763caebe4a977
+    checkpoint_dir: null
+    train_mode: full
+    pooling: masked_attention
+    attention_hidden_size: 256
+    dropout: 0.1
+    num_labels: 5
+    source_max_tokens: 256
+    truncate: false
+    encoder_lr: 1.0e-05
+    head_lr: 5.0e-05
+    global_batch: 32
+    max_epochs: 15
+    patience: 3
+    checkpoint_metric: macro_f1
+    training_data: supplied_final_valid_classification
+    rdrop_lambda: 0.0
+    calibration: none
+    gold_polish_enabled: false
+    gold_polish_epochs: 3
+    gold_polish_encoder_lr: 5.0e-06
+    gold_polish_head_lr: 2.0e-05
+  bart:
+    checkpoint_dir: null
+    checkpoint_manifest: null
+    tokenizer_dir: null
+    target_format: null
+    source_prefix: null
+    train_mode: rebuild_from_pretrained
+    rebuild_pretrained: vinai/bartpho-syllable
+    rebuild_revision: 36eee8b4d648dd99da56462edcda3c5c97f7f3de
+    rebuild_enabled: true
+    gold_polish_enabled: false
+    source_max_tokens: 256
+    target_max_tokens: 256
+    truncate: false
+    num_beams: 4
+    num_return_sequences: 2
+    length_penalty: 1.0
+    do_sample: false
+    training_data: supplied_final_valid_corrections
+    lr: 2.0e-05
+    global_batch: 16
+    max_epochs: 8
+    patience: 3
+  vit5:
+    checkpoint_dir: null
+    checkpoint_manifest: null
+    tokenizer_dir: null
+    target_format: null
+    source_prefix: null
+    train_mode: rebuild_from_pretrained
+    rebuild_pretrained: VietAI/vit5-base
+    rebuild_revision: 2209a38d735ede63e88f5aa52bcdc11a05a37b85
+    rebuild_enabled: true
+    gold_polish_enabled: false
+    training_data: preprocessed_btc_valid_corrections_only
+    rebuild_source_prefix: 'sửa lỗi ngữ pháp: '
+    source_max_tokens: 256
+    target_max_tokens: 256
+    truncate: false
+    num_beams: 4
+    num_return_sequences: 2
+    length_penalty: 1.0
+    do_sample: false
+    lr: 3.0e-05
+    global_batch: 16
+    max_epochs: 12
+    patience: 3
+  qwen_corrector:
+    pretrained: Qwen/Qwen3.5-4B
+    revision: 851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a
+    adapter_dir: null
+    train_mode: lora_bf16
+    training_data: supplied_final_valid_corrections
+    gold_polish_enabled: false
+    lora_rank: 32
+    lora_alpha: 64
+    lora_dropout: 0.05
+    lora_targets: inspect_text_linear_modules
+    text_only: true
+    freeze_vision: true
+    enable_thinking: false
+    prompt_id: SUB1_QWEN_CORRECT_V1
+    max_sequence_tokens: 2048
+    max_new_tokens: 512
+    truncate: false
+    assistant_only_loss: true
+    packing: false
+    global_batch: 16
+    mixed_global_batch: 32
+    mixed_lr: 3.0e-05
+    mixed_epochs: 1
+    provided_final_lr: 3.0e-05
+    provided_final_global_batch: 32
+    provided_final_max_epochs: 1
+    gold_lr: 1.0e-05
+    gold_max_epochs: 3
+    patience: 2
+    candidate_count: 2
+    decoding_modes:
+    - greedy
+    - sampling
+    sampling_temperature: 0.3
+    sampling_top_p: 0.9
+    repetition_penalty: 1.0
+    no_repeat_ngram_size: 0
+    schema_retry_count: 1
+  reranker:
+    pretrained: Qwen/Qwen3-Reranker-4B
+    revision: 22e683669bc0f0bd69640a1354a6d0aebcfeede5
+    mode: frozen
+    training_target_mode: gec_lora_if_preferences_ready
+    adapter_dir: null
+    instruction_id: SUB1_GEC_RANK_V1
+    max_pair_tokens: 1024
+    truncate: false
+    score: yes_minus_no_logit
+    padding_side: left
+    lora_rank: 16
+    lora_alpha: 32
+    lora_dropout: 0.05
+    lr: 1.0e-05
+    global_source_batch: 8
+    candidates_per_source_batch: 4
+    max_epochs: 2
+    challenger_max_epochs: 4
+    patience: 2
+    binary_loss_weight: 0.2
+    min_audited_sources: 100
+    min_audited_ordered_pairs: 200
+    rank_fit_fraction: 0.8
+    learned_calibration: false
+generation:
+  family_limits:
+    bart: 2
+    vit5: 2
+    qwen: 2
+    copy: 1
+  max_pool_before_dedup: 7
+  exact_raw_dedup: true
+  preserve_provenance: true
+  label_zero_short_circuit: false
+  predicted_label_to_correctors: false
+verification:
+  mode: deterministic_alignment
+  unit: unicode_codepoint
+  tie_break:
+  - match
+  - substitute
+  - delete
+  - insert
+  require_roundtrip: true
+  soft_risks_are_hard_filters: false
+  diagnostic_high_edit_ratio: 0.3
+  learned_edit_confidence: false
+  edit_recombination: false
+selection:
+  method: reranker_margin_top1
+  tie_tolerance: 1.0e-06
+  tie_break:
+  - agreement_desc
+  - edit_distance_asc
+  - text_sha256_asc
+  absolute_score_threshold: null
+  copy_bonus: 0.0
+  fallback: copy
+  allow_degraded: false
+scoring:
+  mode: proxy
+  official_scorer_path: null
+  proxy_version: vgec_proxy_v1
+  primary_metric: S_proxy_user_all
+  classification_labels:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  empty_submitted_correction_means_source: true
+  gleu_order: 4
+  gleu_reference_samples: 500
+  gleu_seed: 13
+  bootstrap_samples: 2000
+  bootstrap_seed: 42
+runtime:
+  backend: modal
+  gpu: A100-40GB
+  gpus_per_worker: 1
+  checkpoint_format: immutable_transactional
+  training_slice_soft_seconds: 19800
+  training_slice_hard_seconds: 21600
+  benchmark_required: true
+  benchmark_artifact: null
+  full_run_budget_usd: null
+  device: auto
+  precision: auto
+  world_size: 1
+  micro_batch_per_gpu: null
+  derive_gradient_accumulation: true
+  gradient_checkpointing: true
+  dataloader_num_workers: 0
+  weight_decay: 0.01
+  warmup_ratio: 0.06
+  grad_clip_norm: 1.0
+  cache_dir: cache/sub1
+  resume: false
+  offline_inference: false
+  checkpoint_interval_seconds: 600
+workflow:
+  target: full_oof_and_adapted_reranker
+  frozen_reranker_baseline: true
+  insufficient_preferences_status: awaiting_annotations
+  final_base_models: 4
+  oof_generator_runs: 9
+  adapted_reranker_runs: 1
+  no_inner_refit_default: true

@@ -1,0 +1,45 @@
+{
+  "bami_classifier": {
+    "snapshot": "step-00002632-551882ef4edc",
+    "identity": "b5d0f3cbaa574445c7e76568a65f369b20682889c30adddbe04333d7f8cc2f91",
+    "config_hash": "270f544a79c4406ca18e857de3c1b09b694c86f694d5a5abf866bb19bcc9d840",
+    "file_sha256": {
+      "model.pt": "c27396fcd77dc3ac4ebb00ff2a8a806a0263b81b0c97c3cccfee4f6ab6517068",
+      "tokenizer/special_tokens_map.json": "38d989b0fdad0fec0c67c14b1f3c8b68184022cf6d4adc5444526ced8653f738",
+      "tokenizer/tokenizer.json": "746cc4a588fb974f8a2d5316ec25940791d9ef1521f72b5294bc18474ea71491",
+      "tokenizer/tokenizer_config.json": "c3d1354dc9fdcc341c9096038620412e7566aa9108903575f78e353fd03f9077"
+    }
+  },
+  "s0_classifier": {
+    "run": "bartpho-attention-final-full-42",
+    "checkpoint": "best_classification",
+    "identity": "eafc3767392d55f6f4c23775663362a70843e4b1fa018bf795cb668da9556c88",
+    "pooling": "attention",
+    "file_sha256": {
+      "model.safetensors": "c0daf860cbcc63fb2e33ba6d883c136fe71a13fac205c250a841ef6c015a3df8",
+      "attention_pool.pt": "78e4eddf0b6163e27c31f8f8b4b826a868c09a003cbe5de441b73f891a43d0cb",
+      "classifier.pt": "c42bc6fdb8bccd0568fa4da66c0157663effb2604acde31febb0f32374ce939e",
+      "resolved_config.json": "24edf8c50a16304ac63c7bde968f60e36e8d2ff624bda04e9f90152ae6588027",
+      "run_manifest.json": "8aae2f44840d8f21c2a42cbe2212da2d71d28cdedd0057b41e4b769ef5c5901b",
+      "sentencepiece.bpe.model": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865",
+      "dict.txt": "4af19721ccc7a2bf2ef9fa63344377659e5b7a2652b764bc964edd8ed86827ae",
+      "tokenizer_config.json": "ed5ca5ab3c37caec9e929417d7c2a35019240ed4b4f26864e85127c85684cfdb"
+    }
+  },
+  "bart_corrector": {
+    "snapshot": "step-00002238-09c10cc9af21",
+    "identity": "edd810a22df15478a2bdb17fc58e692c898d74dc59a6bd6ddfda7ac083d83750",
+    "file_sha256": {
+      "model.pt": "e56531b614f3ae1e82e735e1bd8be3d71f39a12e1d4cf2a3e9fc8cafa4c1c46d",
+      "tokenizer/dict.txt": "4af19721ccc7a2bf2ef9fa63344377659e5b7a2652b764bc964edd8ed86827ae",
+      "tokenizer/sentencepiece.bpe.model": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865",
+      "tokenizer/special_tokens_map.json": "d5469a60db23249c7f8945013d78df30b44b6bf686c6bb4740f4223f77b1b535",
+      "tokenizer/tokenizer_config.json": "ed5ca5ab3c37caec9e929417d7c2a35019240ed4b4f26864e85127c85684cfdb"
+    }
+  },
+  "label_order": [0, 1, 2, 3, 4],
+  "ensemble_weights": {"bami": 0.5, "s0": 0.5},
+  "temperature": 1,
+  "selector": "first valid BARTpho correction-only generation in original beam order, else raw Input",
+  "label_zero_export": []
+}
