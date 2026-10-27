@@ -93,7 +93,7 @@ The three model branches use the author-supplied final dataset. Dataset origin, 
 
 ## 4. Environment
 
-Training and model inference use Modal with one **A100-40GB** GPU per worker. Local preparation and export run on CPU. The Modal image specifies:
+Training and model inference use Modal with one **A10-24GB** GPU per worker. Local preparation and export run on CPU. The Modal image specifies:
 
 ```text
 Python 3.11
