@@ -1,5 +1,0 @@
-track: experimental_unverified
-max_parameters_per_model: 8000000000
-require_verified_lineage: false
-data_policy: user_supplied_data_after_dev_overlap_removal
-constrained_eligible: false
